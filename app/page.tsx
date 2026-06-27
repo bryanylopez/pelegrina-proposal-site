@@ -1,0 +1,33 @@
+import { Nav } from "@/components/Nav";
+import { Footer } from "@/components/Footer";
+import { Hero } from "@/components/sections/Hero";
+import { Opportunity } from "@/components/sections/Opportunity";
+import { Audit } from "@/components/sections/Audit";
+import { Today } from "@/components/sections/Today";
+import { Gap } from "@/components/sections/Gap";
+import { Proposal } from "@/components/sections/Proposal";
+import { Why } from "@/components/sections/Why";
+import { Scope } from "@/components/sections/Scope";
+import { Engagement } from "@/components/sections/Engagement";
+import { Sample } from "@/components/sections/Sample";
+import { NextSteps } from "@/components/sections/NextSteps";
+
+export default function Home() {
+  return (
+    <main>
+      <Nav />
+      <Hero />
+      <Opportunity />
+      <Audit />
+      <Today />
+      <Gap />
+      <Proposal />
+      <Why />
+      <Scope />
+      <Engagement />
+      <Sample />
+      <NextSteps />
+      <Footer />
+    </main>
+  );
+}
