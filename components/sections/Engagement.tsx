@@ -78,6 +78,40 @@ export function Engagement() {
           </div>
         </Reveal>
 
+        <Reveal>
+          <p className="mt-14 text-xs font-bold uppercase tracking-[0.12em] text-brand-red">
+            {s.phasesLabel}
+          </p>
+          <h3 className="mt-2 font-display text-xl font-semibold text-brand-black sm:text-2xl">
+            {s.phasesTitle}
+          </h3>
+        </Reveal>
+
+        <div className="mt-6 grid gap-5 sm:grid-cols-3">
+          {s.phases.map((p, i) => {
+            const active = i === 1;
+            return (
+              <Reveal key={p.title} delay={i * 100}>
+                <div
+                  className={`flex h-full flex-col rounded-3xl p-7 ${
+                    active ? "bg-brand-black text-white" : "bg-white text-brand-black shadow-sm"
+                  }`}
+                >
+                  <span className="font-display text-4xl font-bold text-brand-red">{i + 1}</span>
+                  <h3 className="mt-4 font-display text-xl font-semibold">{p.title}</h3>
+                  <p
+                    className={`mt-3 text-sm leading-relaxed ${
+                      active ? "text-white/70" : "text-brand-muted"
+                    }`}
+                  >
+                    {p.detail}
+                  </p>
+                </div>
+              </Reveal>
+            );
+          })}
+        </div>
+
         <p className="mt-8 max-w-3xl text-sm italic text-brand-muted">{s.footnote}</p>
       </div>
     </section>

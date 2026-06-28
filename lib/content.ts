@@ -1,5 +1,6 @@
 export type Locale = "en" | "es";
 
+// TODO: pendiente reemplazar el logo de Brand Composers (revisar referencias de marca/email asociadas).
 export const contact = {
   name: "Pamela Felicié",
   phone: "(939) 232-6170",
@@ -10,32 +11,26 @@ export const contact = {
 export const nav = {
   en: [
     { id: "opportunity", label: "Opportunity" },
-    { id: "audit", label: "Audit" },
     { id: "today", label: "Today" },
     { id: "gap", label: "The Gap" },
     { id: "capabilities", label: "What's Possible" },
     { id: "showcase", label: "In Action" },
     { id: "why", label: "Why This Works" },
     { id: "proposal", label: "The Proposal" },
-    { id: "scope", label: "Scope" },
     { id: "engagement", label: "Engagement" },
-    { id: "sample", label: "Sample Campaign" },
     { id: "quickstart", label: "Quick Start" },
     { id: "questions", label: "Key Questions" },
     { id: "next", label: "Next Steps" },
   ],
   es: [
     { id: "opportunity", label: "Oportunidad" },
-    { id: "audit", label: "Auditoría" },
     { id: "today", label: "Hoy" },
     { id: "gap", label: "La Brecha" },
     { id: "capabilities", label: "Lo Que Es Posible" },
     { id: "showcase", label: "En Acción" },
     { id: "why", label: "Por Qué Funciona" },
     { id: "proposal", label: "La Propuesta" },
-    { id: "scope", label: "Alcance" },
     { id: "engagement", label: "Modalidad" },
-    { id: "sample", label: "Campaña Ejemplo" },
     { id: "quickstart", label: "Primer Paso" },
     { id: "questions", label: "Preguntas Clave" },
     { id: "next", label: "Próximos Pasos" },
@@ -97,35 +92,11 @@ export const sections = {
         { number: "3", label: "new regions targeted" },
       ],
     },
-    audit: {
-      label: "Audit Highlights",
-      title: "What the brand & marketing audit found",
-      intro:
-        "A desk audit of the website, SEO, social, email, and paid media — done ahead of this conversation.",
-      findings: [
-        {
-          icon: "thumbsUp",
-          title: "A Strong Foundation Already in Place",
-          items: [
-            "A recently rebuilt, mobile-friendly website with consistent branding across all six social channels.",
-            "45 years of history and direct manufacturer relationships — credibility new entrants don't have.",
-          ],
-        },
-        {
-          icon: "bullhorn",
-          title: "Channels Are Either Off or Unmeasured",
-          items: [
-            "No paid Google, Meta, or LinkedIn campaigns visible today — demand currently relies mostly on organic content and direct outreach.",
-            "Email has run on Mailchimp for years, but list size and performance still aren't tracked.",
-          ],
-        },
-      ],
-      footnote:
-        "The gaps are about reach and structure — not the quality of the work already being done.",
-    },
     today: {
       label: "Where Things Stand Today",
       title: "A strong foundation, running on organic effort alone",
+      intro:
+        "A desk audit of the website, SEO, social, email, and paid media — done ahead of this conversation.",
       cards: [
         {
           icon: "share",
@@ -152,6 +123,26 @@ export const sections = {
           sub: "Outbound for 3 new regions runs on a small team",
         },
       ],
+      findings: [
+        {
+          icon: "thumbsUp",
+          title: "A Strong Foundation Already in Place",
+          items: [
+            "A recently rebuilt, mobile-friendly website with consistent branding across all six social channels.",
+            "45 years of history and direct manufacturer relationships — credibility new entrants don't have.",
+          ],
+        },
+        {
+          icon: "bullhorn",
+          title: "Channels Are Either Off or Unmeasured",
+          items: [
+            "No paid Google, Meta, or LinkedIn campaigns visible today — demand currently relies mostly on organic content and direct outreach.",
+            "Email has run on Mailchimp for years, but list size and performance still aren't tracked.",
+          ],
+        },
+      ],
+      footnote:
+        "The gaps are about reach and structure — not the quality of the work already being done.",
     },
     gap: {
       label: "The Gap",
@@ -266,22 +257,39 @@ export const sections = {
             "Pamela Felicié (Partner, Solo Agency) owns strategy, execution, and the day-to-day relationship; Bryan López provides senior strategic support and collaborators round out delivery.",
         },
         {
-          icon: "map",
-          title: "Market sequencing across LATAM, the U.S. & Caribbean",
-          detail:
-            "Decides where to launch first and how to pace the rest, based on readiness and opportunity.",
-        },
-        {
-          icon: "bullhorn",
-          title: "Ownership of channels currently sitting idle",
-          detail:
-            "Stands up paid search, paid social, and SEO/content rather than leaving them unmanaged.",
-        },
-        {
           icon: "handshake",
           title: "A bridge between marketing, sales, and operations",
           detail:
             "Keeps the international sales effort, creative production, and regional realities aligned.",
+        },
+      ],
+      scopeLabel: "Proposed Scope of Engagement",
+      scopeItems: [
+        {
+          icon: "map",
+          title: "Market-entry strategy",
+          detail: "Sequencing for LATAM, the U.S., and the Caribbean",
+        },
+        {
+          icon: "bullhorn",
+          title: "Paid channel activation",
+          detail: "Google, LinkedIn, and Meta advertising, plus remarketing and cold outreach",
+        },
+        {
+          icon: "search",
+          title: "Organic Growth & Content Engine",
+          detail: "Regional landing pages, SEO, and a content system built for organic reach",
+        },
+        {
+          icon: "userTie",
+          title: "Sales enablement",
+          detail:
+            "Pipeline and positioning support for international sales, backed by automation and custom platforms",
+        },
+        {
+          icon: "barChart",
+          title: "Analytics & Performance Dashboards",
+          detail: "Centralized reporting across channels and regions to track what's working and reallocate fast",
         },
       ],
     },
@@ -313,38 +321,6 @@ export const sections = {
           title: "Able to Move From Day One",
           detail:
             "Strategy can start immediately, in parallel with the discovery process most engagements require up front.",
-        },
-      ],
-    },
-    scope: {
-      label: "Proposed Scope of Engagement",
-      title: "Five areas of focus",
-      items: [
-        {
-          icon: "map",
-          title: "Market-entry strategy",
-          detail: "Sequencing for LATAM, the U.S., and the Caribbean",
-        },
-        {
-          icon: "bullhorn",
-          title: "Paid channel activation",
-          detail: "Google, LinkedIn, and Meta advertising, plus remarketing and cold outreach",
-        },
-        {
-          icon: "search",
-          title: "Organic Growth & Content Engine",
-          detail: "Regional landing pages, SEO, and a content system built for organic reach",
-        },
-        {
-          icon: "userTie",
-          title: "Sales enablement",
-          detail:
-            "Pipeline and positioning support for international sales, backed by automation and custom platforms",
-        },
-        {
-          icon: "barChart",
-          title: "Analytics & Performance Dashboards",
-          detail: "Centralized reporting across channels and regions to track what's working and reallocate fast",
         },
       ],
     },
@@ -397,10 +373,8 @@ export const sections = {
         ],
       },
       footnote: "Cadence and hours are scoped to budget and priorities; see the Key Questions below.",
-    },
-    sample: {
-      label: "Getting Started",
-      title: "A sample first campaign (one quarter)",
+      phasesLabel: "Getting Started",
+      phasesTitle: "A sample first campaign (one quarter)",
       phases: [
         {
           title: "Align & Audit",
@@ -516,35 +490,11 @@ export const sections = {
         { number: "3", label: "nuevas regiones objetivo" },
       ],
     },
-    audit: {
-      label: "Hallazgos de la Auditoría",
-      title: "Hallazgos de la auditoría de marca y marketing",
-      intro:
-        "Una auditoría de escritorio de la página web, SEO, redes sociales, correo electrónico y medios pagados, realizada antes de esta conversación.",
-      findings: [
-        {
-          icon: "thumbsUp",
-          title: "Una Base Sólida Ya Establecida",
-          items: [
-            "Una página web recién renovada y adaptada a móviles, con identidad de marca consistente en los seis canales sociales.",
-            "45 años de historia y relaciones directas con manufactureros, una credibilidad que los nuevos competidores no tienen.",
-          ],
-        },
-        {
-          icon: "bullhorn",
-          title: "Canales Inactivos o Sin Medición",
-          items: [
-            "No se observan campañas pagadas en Google, Meta o LinkedIn hoy: la demanda depende principalmente del contenido orgánico y el contacto directo.",
-            "El correo se maneja en Mailchimp desde hace años, pero el tamaño de la lista y su rendimiento aún no se monitorean.",
-          ],
-        },
-      ],
-      footnote:
-        "Las brechas tienen que ver con alcance y estructura, no con la calidad del trabajo que ya se realiza.",
-    },
     today: {
       label: "Dónde Estamos Hoy",
       title: "Una base sólida, sostenida solo con esfuerzo orgánico",
+      intro:
+        "Una auditoría de escritorio de la página web, SEO, redes sociales, correo electrónico y medios pagados, realizada antes de esta conversación.",
       cards: [
         {
           icon: "share",
@@ -571,6 +521,26 @@ export const sections = {
           sub: "Las ventas para 3 nuevas regiones dependen de un equipo pequeño",
         },
       ],
+      findings: [
+        {
+          icon: "thumbsUp",
+          title: "Una Base Sólida Ya Establecida",
+          items: [
+            "Una página web recién renovada y adaptada a móviles, con identidad de marca consistente en los seis canales sociales.",
+            "45 años de historia y relaciones directas con manufactureros, una credibilidad que los nuevos competidores no tienen.",
+          ],
+        },
+        {
+          icon: "bullhorn",
+          title: "Canales Inactivos o Sin Medición",
+          items: [
+            "No se observan campañas pagadas en Google, Meta o LinkedIn hoy: la demanda depende principalmente del contenido orgánico y el contacto directo.",
+            "El correo se maneja en Mailchimp desde hace años, pero el tamaño de la lista y su rendimiento aún no se monitorean.",
+          ],
+        },
+      ],
+      footnote:
+        "Las brechas tienen que ver con alcance y estructura, no con la calidad del trabajo que ya se realiza.",
     },
     gap: {
       label: "La Brecha",
@@ -686,22 +656,39 @@ export const sections = {
             "Pamela Felicié (Partner, Solo Agency) dirige la estrategia, la ejecución y la relación día a día; Bryan López brinda apoyo estratégico senior y colaboradores completan la entrega.",
         },
         {
-          icon: "map",
-          title: "Secuenciación de mercados entre LATAM, EE. UU. y el Caribe",
-          detail:
-            "Decide dónde lanzar primero y cómo ritmar el resto, según preparación y oportunidad.",
-        },
-        {
-          icon: "bullhorn",
-          title: "Responsabilidad sobre canales hoy inactivos",
-          detail:
-            "Activa búsqueda pagada, redes pagadas y SEO/contenido en lugar de dejarlos sin gestión.",
-        },
-        {
           icon: "handshake",
           title: "Un puente entre marketing, ventas y operaciones",
           detail:
             "Mantiene alineados el esfuerzo de ventas internacionales, la producción creativa y las realidades regionales.",
+        },
+      ],
+      scopeLabel: "Alcance Propuesto del Proyecto",
+      scopeItems: [
+        {
+          icon: "map",
+          title: "Estrategia de entrada a mercado",
+          detail: "Secuenciación para LATAM, Estados Unidos y el Caribe",
+        },
+        {
+          icon: "bullhorn",
+          title: "Activación de canales pagados",
+          detail: "Publicidad en Google, LinkedIn y Meta, más esfuerzos de remarketing y cold outreach",
+        },
+        {
+          icon: "search",
+          title: "Crecimiento Orgánico y Motor de Contenido",
+          detail: "Páginas de destino regionales, SEO y un sistema de contenido pensado para alcance orgánico",
+        },
+        {
+          icon: "userTie",
+          title: "Apoyo a ventas",
+          detail:
+            "Soporte de pipeline y posicionamiento para ventas internacionales, respaldado por automatización y plataformas personalizadas",
+        },
+        {
+          icon: "barChart",
+          title: "Analítica y Tableros de Desempeño",
+          detail: "Reportes centralizados por canal y región para ver qué funciona y reasignar rápido",
         },
       ],
     },
@@ -733,38 +720,6 @@ export const sections = {
           title: "Listo para Avanzar Desde el Primer Día",
           detail:
             "La estrategia puede iniciar de inmediato, en paralelo al proceso de descubrimiento que la mayoría de los proyectos requieren al inicio.",
-        },
-      ],
-    },
-    scope: {
-      label: "Alcance Propuesto del Proyecto",
-      title: "Cinco áreas de enfoque",
-      items: [
-        {
-          icon: "map",
-          title: "Estrategia de entrada a mercado",
-          detail: "Secuenciación para LATAM, Estados Unidos y el Caribe",
-        },
-        {
-          icon: "bullhorn",
-          title: "Activación de canales pagados",
-          detail: "Publicidad en Google, LinkedIn y Meta, más esfuerzos de remarketing y cold outreach",
-        },
-        {
-          icon: "search",
-          title: "Crecimiento Orgánico y Motor de Contenido",
-          detail: "Páginas de destino regionales, SEO y un sistema de contenido pensado para alcance orgánico",
-        },
-        {
-          icon: "userTie",
-          title: "Apoyo a ventas",
-          detail:
-            "Soporte de pipeline y posicionamiento para ventas internacionales, respaldado por automatización y plataformas personalizadas",
-        },
-        {
-          icon: "barChart",
-          title: "Analítica y Tableros de Desempeño",
-          detail: "Reportes centralizados por canal y región para ver qué funciona y reasignar rápido",
         },
       ],
     },
@@ -817,10 +772,8 @@ export const sections = {
         ],
       },
       footnote: "La cadencia y las horas se definen según presupuesto y prioridades: ver las Preguntas Clave más abajo.",
-    },
-    sample: {
-      label: "Primeros Pasos",
-      title: "Ejemplo de primera campaña (un trimestre)",
+      phasesLabel: "Primeros Pasos",
+      phasesTitle: "Ejemplo de primera campaña (un trimestre)",
       phases: [
         {
           title: "Alinear y Auditar",

@@ -40,6 +40,28 @@ export function Proposal() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={s.rows.length * 80}>
+          <h3 className="mt-14 font-display text-xl font-semibold text-brand-black sm:text-2xl">
+            {s.scopeLabel}
+          </h3>
+        </Reveal>
+
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          {s.scopeItems.map((item, i) => (
+            <Reveal key={item.title} delay={s.rows.length * 80 + i * 70}>
+              <div className="flex h-full flex-col items-center rounded-3xl bg-brand-mist p-6 text-center">
+                <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-white shadow-sm">
+                  <Icon name={item.icon} className="h-6 w-6 text-brand-red" />
+                </div>
+                <h3 className="font-display text-base font-semibold text-brand-black">
+                  {item.title}
+                </h3>
+                <p className="mt-2 text-xs leading-relaxed text-brand-muted">{item.detail}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </section>
   );
