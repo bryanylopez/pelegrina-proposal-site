@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { useLanguage } from "./LanguageProvider";
-import { LangToggle } from "./LangToggle";
 import { nav as navData, ui } from "@/lib/content";
 
 export function Nav() {
@@ -49,7 +48,7 @@ export function Nav() {
           </button>
 
           <div className="flex items-center gap-3">
-            <LangToggle />
+            {/* LangToggle hidden for now — English copy isn't finalized yet. Re-enable when ready. */}
             <button
               onClick={() => go("next")}
               className="hidden items-center gap-1 rounded-pill bg-brand-black px-4 py-2 text-xs font-semibold text-white transition-opacity hover:opacity-85 sm:flex"
