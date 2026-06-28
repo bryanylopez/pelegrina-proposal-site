@@ -47,6 +47,20 @@ export function Nav() {
             />
           </button>
 
+          <nav className="hidden items-center gap-7 lg:flex">
+            {items.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => go(item.id)}
+                className={`text-sm font-semibold transition-colors hover:text-brand-red ${
+                  scrolled ? "text-brand-black" : "text-white"
+                }`}
+              >
+                {item.label}
+              </button>
+            ))}
+          </nav>
+
           <div className="flex items-center gap-3">
             {/* LangToggle hidden for now — English copy isn't finalized yet. Re-enable when ready. */}
             <button
