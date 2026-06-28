@@ -25,8 +25,8 @@ export default function Home() {
       <Today />
       <Gap />
       <Capabilities />
-      <Proposal />
       <Why />
+      <Proposal />
       <Scope />
       <Engagement />
       <Sample />

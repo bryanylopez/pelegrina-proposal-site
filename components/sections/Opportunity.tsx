@@ -41,7 +41,7 @@ export function Opportunity() {
               <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-black">
                 <Globe2 className="h-6 w-6 text-white" strokeWidth={1.5} />
               </div>
-              <dl className="grid grid-cols-2 gap-8">
+              <dl className="grid grid-cols-1 gap-8 sm:grid-cols-3">
                 {s.stats.map((stat) => (
                   <div key={stat.label}>
                     <dt className="break-words font-display text-3xl font-bold leading-tight text-brand-black sm:text-5xl">
