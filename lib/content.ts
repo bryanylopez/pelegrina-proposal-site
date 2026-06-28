@@ -480,7 +480,7 @@ export const sections = {
         "Pelegrina cuenta con el catálogo de productos, las relaciones con manufactureros y la reputación para atender hospitales y clínicas mucho más allá de Puerto Rico. La meta estratégica ahora es convertir esa base en demanda activa en tres nuevas regiones.",
       regions: [
         { name: "LATAM", detail: "Nueva demanda de hospitales y distribuidores" },
-        { name: "Estados Unidos", detail: "Mercados de compras y EMS en el territorio continental" },
+        { name: "Estados Unidos", detail: "Mercados de compras en el territorio continental" },
         { name: "Caribe", detail: "Redes de salud en islas vecinas" },
       ],
       stats: [
@@ -491,7 +491,7 @@ export const sections = {
     },
     today: {
       label: "Dónde Estamos Hoy",
-      title: "Una base sólida, sostenida solo con esfuerzo orgánico",
+      title: "Una base sólida, sostenida con esfuerzo orgánico",
       intro:
         "Una auditoría de escritorio de la página web, SEO, redes sociales, correo electrónico y medios pagados, realizada antes de esta conversación.",
       cards: [
@@ -534,7 +534,7 @@ export const sections = {
           title: "Canales Inactivos o Sin Medición",
           items: [
             "No se observan campañas pagadas en Google, Meta o LinkedIn hoy: la demanda depende principalmente del contenido orgánico y el contacto directo.",
-            "El correo se maneja en Mailchimp desde hace años, pero el tamaño de la lista y su rendimiento aún no se monitorean.",
+            "El correo se maneja en Mailchimp desde hace ya un par de años, una estrategia establecida y lista para escalar.",
           ],
         },
       ],
