@@ -43,22 +43,36 @@ export function Showcase() {
                   {item.detail}
                 </p>
 
-                {item.url ? (
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-5 inline-flex items-center gap-1.5 self-start rounded-pill bg-brand-black px-4 py-2 text-xs font-semibold text-white transition-opacity hover:opacity-85"
-                  >
-                    {item.linkLabel}
-                    <ArrowUpRight className="h-3.5 w-3.5" />
-                  </a>
-                ) : (
-                  <span className="mt-5 inline-flex items-center gap-1.5 self-start rounded-pill border border-black/10 px-4 py-2 text-xs font-semibold text-brand-muted">
-                    <Eye className="h-3.5 w-3.5" />
-                    {locale === "es" ? "Se revisa en persona" : "Reviewed in person"}
-                  </span>
-                )}
+                <div className="mt-5 flex flex-wrap items-center gap-2.5">
+                  {item.url ? (
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 self-start rounded-pill bg-brand-black px-4 py-2 text-xs font-semibold text-white transition-opacity hover:opacity-85"
+                    >
+                      {item.linkLabel}
+                      <ArrowUpRight className="h-3.5 w-3.5" />
+                    </a>
+                  ) : (
+                    <span className="inline-flex items-center gap-1.5 self-start rounded-pill border border-black/10 px-4 py-2 text-xs font-semibold text-brand-muted">
+                      <Eye className="h-3.5 w-3.5" />
+                      {locale === "es" ? "Se revisa en persona" : "Reviewed in person"}
+                    </span>
+                  )}
+
+                  {item.secondaryUrl && (
+                    <a
+                      href={item.secondaryUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 self-start rounded-pill border border-black/10 bg-white px-4 py-2 text-xs font-semibold text-brand-black transition-opacity hover:opacity-85"
+                    >
+                      {item.secondaryLabel}
+                      <ArrowUpRight className="h-3.5 w-3.5" />
+                    </a>
+                  )}
+                </div>
               </div>
             </Reveal>
           ))}

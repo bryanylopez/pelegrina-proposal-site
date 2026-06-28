@@ -215,6 +215,8 @@ export const sections = {
             "A geo-targeted landing page (Houston, TX) built to capture local health-related search and convert with campaign tracking.",
           url: "https://habl.io/en/healthcare/tx/houston?utm_source=test&utm_medium=direct&utm_campaign=forms-test",
           linkLabel: "View page",
+          secondaryUrl: null,
+          secondaryLabel: null,
         },
         {
           icon: "database",
@@ -223,6 +225,8 @@ export const sections = {
           detail: "An auto-generated, consultant-specific page built to speed up sales quoting.",
           url: "https://windmar.com/pr/consultor/4258103001706308419",
           linkLabel: "View example",
+          secondaryUrl: null,
+          secondaryLabel: null,
         },
         {
           icon: "video",
@@ -231,6 +235,8 @@ export const sections = {
           detail: "A video series produced to strengthen brand presence and organic content on YouTube.",
           url: "https://www.youtube.com/playlist?list=PLfiAUJk6iOV0LjQMlqfZMR2N-SNfbJf_w",
           linkLabel: "View playlist",
+          secondaryUrl: "/videos/brand-video-sample.mp4",
+          secondaryLabel: "Watch sample",
         },
         {
           icon: "bot",
@@ -240,6 +246,8 @@ export const sections = {
             "An example of an AI dashboard for business visibility and automation. Best reviewed live in person.",
           url: null,
           linkLabel: null,
+          secondaryUrl: null,
+          secondaryLabel: null,
         },
       ],
     },
@@ -613,6 +621,8 @@ export const sections = {
             "Página de aterrizaje geolocalizada (Houston, TX) construida para capturar búsquedas locales de salud y convertir con seguimiento de campaña.",
           url: "https://habl.io/en/healthcare/tx/houston?utm_source=test&utm_medium=direct&utm_campaign=forms-test",
           linkLabel: "Ver página",
+          secondaryUrl: null,
+          secondaryLabel: null,
         },
         {
           icon: "database",
@@ -622,6 +632,8 @@ export const sections = {
             "Página generada automáticamente por consultor, construida para acelerar las cotizaciones de la fuerza de ventas.",
           url: "https://windmar.com/pr/consultor/4258103001706308419",
           linkLabel: "Ver ejemplo",
+          secondaryUrl: null,
+          secondaryLabel: null,
         },
         {
           icon: "video",
@@ -631,6 +643,8 @@ export const sections = {
             "Serie de videos producidos para reforzar la presencia de marca y el contenido orgánico en YouTube.",
           url: "https://www.youtube.com/playlist?list=PLfiAUJk6iOV0LjQMlqfZMR2N-SNfbJf_w",
           linkLabel: "Ver playlist",
+          secondaryUrl: "/videos/brand-video-sample.mp4",
+          secondaryLabel: "Ver muestra",
         },
         {
           icon: "bot",
@@ -639,6 +653,8 @@ export const sections = {
           detail: "Ejemplo de dashboard con IA para visibilidad de negocio y automatización. Mejor revisarlo en vivo, en persona.",
           url: null,
           linkLabel: null,
+          secondaryUrl: null,
+          secondaryLabel: null,
         },
       ],
     },
