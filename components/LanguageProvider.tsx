@@ -23,15 +23,9 @@ const LanguageContext = createContext<LanguageContextValue | undefined>(
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>("es");
 
-  useEffect(() => {
-    const stored =
-      typeof window !== "undefined"
-        ? window.localStorage.getItem("pelegrina_locale")
-        : null;
-    if (stored === "en" || stored === "es") {
-      setLocaleState(stored);
-    }
-  }, []);
+  // Locale restore from localStorage is disabled while the language toggle
+  // is hidden — English copy isn't finalized, so always start on Spanish
+  // even for visitors who previously switched to English.
 
   useEffect(() => {
     document.documentElement.lang = locale;
