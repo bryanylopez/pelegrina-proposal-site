@@ -51,6 +51,12 @@ export function Nav() {
             >
               Pelegrina × Solo
             </span>
+            <span className="ml-2 hidden h-4 w-px bg-current opacity-20 sm:block" />
+            <img
+              src={scrolled ? "/brand-composers-logo.png" : "/brand-composers-logo-white.png"}
+              alt="Brand Composers"
+              className="hidden h-4 w-auto opacity-80 sm:block"
+            />
           </button>
 
           <div className="flex items-center gap-3">

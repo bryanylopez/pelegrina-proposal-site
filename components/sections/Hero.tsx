@@ -30,6 +30,11 @@ export function Hero() {
           <div>
             <p className="text-sm font-semibold text-white">{s.preparedBy}</p>
             <p className="text-sm text-white/50">{s.preparedFor}</p>
+            <img
+              src="/brand-composers-logo-white.png"
+              alt="Brand Composers"
+              className="mt-4 h-5 w-auto opacity-80"
+            />
           </div>
           <button
             onClick={() =>
