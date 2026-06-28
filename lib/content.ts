@@ -300,7 +300,7 @@ export const sections = {
           icon: "building",
           title: "Bryan López — Senior Strategic Support",
           detail:
-            "Former Marketing & IT Coordinator at Pelegrina Medical, with established trust with the President and Operations Manager. Today he's Digital Marketing Director at WindMar Home for Puerto Rico and Florida, leading paid media, analytics, and remarketing efforts to grow LTV, alongside building sales-support platforms like AI chatbots, quoting portals, and custom websites. On this project, he advises on strategy without owning day-to-day execution.",
+            "Today he's Digital Marketing Director at WindMar Home for Puerto Rico and Florida, leading paid media, analytics, and remarketing efforts to grow LTV, alongside building sales-support platforms like AI chatbots, quoting portals, and custom websites. On this project, he advises on strategy without owning day-to-day execution.",
         },
         {
           icon: "comments",
@@ -720,7 +720,7 @@ export const sections = {
           icon: "building",
           title: "Bryan López, Apoyo Estratégico Senior",
           detail:
-            "Ex Coordinador de Marketing e IT en Pelegrina Medical, con confianza ya establecida con el Presidente y la Gerente de Operaciones. Hoy es Director de Marketing Digital en WindMar Home para Puerto Rico y Florida, donde lidera los esfuerzos de pauta digital, analítica y remarketing para aumentar el LTV, junto al desarrollo de plataformas de apoyo a la fuerza de ventas, como AI chatbots, portales de cotización, páginas web personalizadas y más. En este proyecto, asesora en estrategia sin asumir la ejecución diaria.",
+            "Hoy es Director de Marketing Digital en WindMar Home para Puerto Rico y Florida, donde lidera los esfuerzos de pauta digital, analítica y remarketing para aumentar el LTV, junto al desarrollo de plataformas de apoyo a la fuerza de ventas, como AI chatbots, portales de cotización, páginas web personalizadas y más. En este proyecto, asesora en estrategia sin asumir la ejecución diaria.",
         },
         {
           icon: "comments",
