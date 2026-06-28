@@ -22,17 +22,11 @@ export const nav = {
     { id: "next", label: "Next Steps" },
   ],
   es: [
-    { id: "opportunity", label: "Oportunidad" },
-    { id: "today", label: "Hoy" },
-    { id: "gap", label: "La Brecha" },
-    { id: "capabilities", label: "Lo Que Es Posible" },
-    { id: "showcase", label: "En Acción" },
-    { id: "why", label: "Por Qué Funciona" },
-    { id: "proposal", label: "La Propuesta" },
-    { id: "engagement", label: "Modalidad" },
-    { id: "quickstart", label: "Primer Paso" },
-    { id: "questions", label: "Preguntas Clave" },
-    { id: "next", label: "Próximos Pasos" },
+    { id: "today", label: "Auditoría" },
+    { id: "capabilities", label: "Servicios" },
+    { id: "why", label: "El Equipo" },
+    { id: "engagement", label: "El Proceso" },
+    { id: "questions", label: "Preguntas" },
   ],
 };
 
