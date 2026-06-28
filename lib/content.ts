@@ -356,39 +356,22 @@ export const sections = {
       label: "Quick Start",
       title: "A First Step You Can See in Weeks: Photography & Video",
       intro:
-        "Before the larger campaigns take shape, here's a concrete deliverable that's already quoted and ready to schedule: refreshed corporate headshots and a bilingual company intro video.",
-      items: [
-        {
-          icon: "userTie",
-          title: "Executive Portrait (1 person)",
-          detail:
-            "On-site headshot session, pose direction, basic editing, and digital delivery.",
-          price: "$200",
-        },
-        {
-          icon: "users",
-          title: "Leadership Headshots (5 people)",
-          detail: "Same on-site session and delivery, at a per-person rate.",
-          price: "$750",
-        },
-        {
-          icon: "camera",
-          title: "Team Headshots (20 people)",
-          detail: "Same on-site session and delivery, scaled for the broader team.",
-          price: "$1,000",
-        },
-        {
-          icon: "video",
-          title: "Company Intro Video (60 seconds)",
-          detail:
-            "Script, on-site filming (can be coordinated the same day as the photo session), editing, and narration/subtitles in both English and Spanish.",
-          price: "$1,500",
-        },
-      ],
-      totalLabel: "Quoted total (up to 26 team members)",
-      total: "$3,450",
+        "Before the larger campaigns take shape, here's a concrete deliverable that's already quoted and ready to schedule. Drag the slider to estimate pricing for your team.",
+      sliderLabel: "Team members needing headshots",
+      unitLabel: "people",
+      perPersonLabel: "person",
+      tierIndividual: "Individual rate",
+      tierSmall: "Small-team rate",
+      tierFull: "Full-team rate",
+      videoLabel: "Add company intro video (60 seconds, bilingual)",
+      videoDetail:
+        "Script, on-site filming, editing, and narration/subtitles in both English and Spanish.",
+      photoLineLabel: "Photography",
+      videoLineLabel: "Video",
+      totalLabel: "Estimated total",
+      ctaLabel: "Let's schedule it",
       footnote:
-        "From quote QT-000002 (Brand Composers). Valid 30 days from issue; final pricing subject to confirmed scope.",
+        "Estimate based on per-person rates from quote QT-000002 (Brand Composers): $200 for 1 person, $150/person up to 5, $50/person from 6 to 20+. Final pricing confirmed in writing before scheduling.",
     },
     next: {
       label: "Next Steps",
@@ -689,39 +672,21 @@ export const sections = {
       label: "Primer Paso",
       title: "Un Primer Paso Visible en Semanas: Fotografía y Video",
       intro:
-        "Antes de que tomen forma las campañas más grandes, aquí hay un entregable concreto ya cotizado y listo para coordinar: headshots corporativos renovados y un video institucional bilingüe.",
-      items: [
-        {
-          icon: "userTie",
-          title: "Retrato Ejecutivo (1 persona)",
-          detail:
-            "Sesión en las oficinas, dirección de poses, edición básica y entrega digital.",
-          price: "$200",
-        },
-        {
-          icon: "users",
-          title: "Headshots de Liderazgo (5 personas)",
-          detail: "La misma sesión y entrega en sitio, a una tarifa por persona.",
-          price: "$750",
-        },
-        {
-          icon: "camera",
-          title: "Headshots del Equipo (20 personas)",
-          detail: "La misma sesión y entrega en sitio, escalada para el equipo completo.",
-          price: "$1,000",
-        },
-        {
-          icon: "video",
-          title: "Video Institucional (60 segundos)",
-          detail:
-            "Guion, grabación en sitio (se puede coordinar el mismo día de la sesión de fotos), edición y narración/subtítulos en inglés y español.",
-          price: "$1,500",
-        },
-      ],
-      totalLabel: "Total cotizado (hasta 26 miembros del equipo)",
-      total: "$3,450",
+        "Antes de que tomen forma las campañas más grandes, aquí hay un entregable concreto ya cotizado y listo para coordinar. Mueve el control para estimar el precio para tu equipo.",
+      sliderLabel: "Miembros del equipo que necesitan headshots",
+      unitLabel: "personas",
+      perPersonLabel: "persona",
+      tierIndividual: "Tarifa individual",
+      tierSmall: "Tarifa equipo pequeño",
+      tierFull: "Tarifa equipo completo",
+      videoLabel: "Agregar video institucional (60 segundos, bilingüe)",
+      videoDetail: "Guion, grabación en sitio, edición y narración/subtítulos en inglés y español.",
+      photoLineLabel: "Fotografía",
+      videoLineLabel: "Video",
+      totalLabel: "Total estimado",
+      ctaLabel: "Coordinémoslo",
       footnote:
-        "De la cotización QT-000002 (Brand Composers). Válida por 30 días desde su emisión; precios sujetos a confirmación de alcance final.",
+        "Estimado basado en las tarifas por persona de la cotización QT-000002 (Brand Composers): $200 por 1 persona, $150/persona hasta 5, $50/persona de 6 a 20+. Precio final confirmado por escrito antes de coordinar.",
     },
     next: {
       label: "Próximos Pasos",
