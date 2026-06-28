@@ -23,6 +23,8 @@ import {
   MapPin,
   BarChart3,
   PhoneCall,
+  Camera,
+  Video,
   type LucideIcon,
 } from "lucide-react";
 
@@ -51,6 +53,8 @@ export const iconMap: Record<string, LucideIcon> = {
   pin: MapPin,
   barChart: BarChart3,
   phone: PhoneCall,
+  camera: Camera,
+  video: Video,
 };
 
 export function Icon({

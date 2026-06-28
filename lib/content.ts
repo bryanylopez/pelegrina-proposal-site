@@ -19,6 +19,7 @@ export const nav = {
     { id: "scope", label: "Scope" },
     { id: "engagement", label: "Engagement" },
     { id: "sample", label: "Sample Campaign" },
+    { id: "quickstart", label: "Quick Start" },
     { id: "next", label: "Next Steps" },
   ],
   es: [
@@ -32,6 +33,7 @@ export const nav = {
     { id: "scope", label: "Alcance" },
     { id: "engagement", label: "Modalidad" },
     { id: "sample", label: "Campaña Ejemplo" },
+    { id: "quickstart", label: "Primer Paso" },
     { id: "next", label: "Próximos Pasos" },
   ],
 };
@@ -350,6 +352,44 @@ export const sections = {
         },
       ],
     },
+    quickStart: {
+      label: "Quick Start",
+      title: "A First Step You Can See in Weeks: Photography & Video",
+      intro:
+        "Before the larger campaigns take shape, here's a concrete deliverable that's already quoted and ready to schedule: refreshed corporate headshots and a bilingual company intro video.",
+      items: [
+        {
+          icon: "userTie",
+          title: "Executive Portrait (1 person)",
+          detail:
+            "On-site headshot session, pose direction, basic editing, and digital delivery.",
+          price: "$200",
+        },
+        {
+          icon: "users",
+          title: "Leadership Headshots (5 people)",
+          detail: "Same on-site session and delivery, at a per-person rate.",
+          price: "$750",
+        },
+        {
+          icon: "camera",
+          title: "Team Headshots (20 people)",
+          detail: "Same on-site session and delivery, scaled for the broader team.",
+          price: "$1,000",
+        },
+        {
+          icon: "video",
+          title: "Company Intro Video (60 seconds)",
+          detail:
+            "Script, on-site filming (can be coordinated the same day as the photo session), editing, and narration/subtitles in both English and Spanish.",
+          price: "$1,500",
+        },
+      ],
+      totalLabel: "Quoted total (up to 26 team members)",
+      total: "$3,450",
+      footnote:
+        "From quote QT-000002 (Brand Composers). Valid 30 days from issue; final pricing subject to confirmed scope.",
+    },
     next: {
       label: "Next Steps",
       title: "Next Steps",
@@ -644,6 +684,44 @@ export const sections = {
             "Revisar resultados iniciales, reforzar lo que funciona y secuenciar la siguiente región.",
         },
       ],
+    },
+    quickStart: {
+      label: "Primer Paso",
+      title: "Un Primer Paso Visible en Semanas: Fotografía y Video",
+      intro:
+        "Antes de que tomen forma las campañas más grandes, aquí hay un entregable concreto ya cotizado y listo para coordinar: headshots corporativos renovados y un video institucional bilingüe.",
+      items: [
+        {
+          icon: "userTie",
+          title: "Retrato Ejecutivo (1 persona)",
+          detail:
+            "Sesión en las oficinas, dirección de poses, edición básica y entrega digital.",
+          price: "$200",
+        },
+        {
+          icon: "users",
+          title: "Headshots de Liderazgo (5 personas)",
+          detail: "La misma sesión y entrega en sitio, a una tarifa por persona.",
+          price: "$750",
+        },
+        {
+          icon: "camera",
+          title: "Headshots del Equipo (20 personas)",
+          detail: "La misma sesión y entrega en sitio, escalada para el equipo completo.",
+          price: "$1,000",
+        },
+        {
+          icon: "video",
+          title: "Video Institucional (60 segundos)",
+          detail:
+            "Guion, grabación en sitio (se puede coordinar el mismo día de la sesión de fotos), edición y narración/subtítulos en inglés y español.",
+          price: "$1,500",
+        },
+      ],
+      totalLabel: "Total cotizado (hasta 26 miembros del equipo)",
+      total: "$3,450",
+      footnote:
+        "De la cotización QT-000002 (Brand Composers). Válida por 30 días desde su emisión; precios sujetos a confirmación de alcance final.",
     },
     next: {
       label: "Próximos Pasos",

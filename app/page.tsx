@@ -11,6 +11,7 @@ import { Why } from "@/components/sections/Why";
 import { Scope } from "@/components/sections/Scope";
 import { Engagement } from "@/components/sections/Engagement";
 import { Sample } from "@/components/sections/Sample";
+import { QuickStart } from "@/components/sections/QuickStart";
 import { NextSteps } from "@/components/sections/NextSteps";
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <Scope />
       <Engagement />
       <Sample />
+      <QuickStart />
       <NextSteps />
       <Footer />
     </main>
