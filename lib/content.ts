@@ -14,6 +14,7 @@ export const nav = {
     { id: "today", label: "Today" },
     { id: "gap", label: "The Gap" },
     { id: "capabilities", label: "What's Possible" },
+    { id: "showcase", label: "In Action" },
     { id: "why", label: "Why This Works" },
     { id: "proposal", label: "The Proposal" },
     { id: "scope", label: "Scope" },
@@ -29,6 +30,7 @@ export const nav = {
     { id: "today", label: "Hoy" },
     { id: "gap", label: "La Brecha" },
     { id: "capabilities", label: "Lo Que Es Posible" },
+    { id: "showcase", label: "En Acción" },
     { id: "why", label: "Por Qué Funciona" },
     { id: "proposal", label: "La Propuesta" },
     { id: "scope", label: "Alcance" },
@@ -210,6 +212,47 @@ export const sections = {
       footnote:
         "Not every capability applies on day one — the point is to choose deliberately from a full menu, not by default from a narrow one.",
     },
+    showcase: {
+      label: "In Action",
+      title: "Examples You Can Check Right Now",
+      intro: "Real work, not mockups: this is what these capabilities look like already live.",
+      items: [
+        {
+          icon: "pin",
+          tag: "Local SEO",
+          title: "Localized Landing Page for Healthcare",
+          detail:
+            "A geo-targeted landing page (Houston, TX) built to capture local health-related search and convert with campaign tracking.",
+          url: "https://habl.io/en/healthcare/tx/houston?utm_source=test&utm_medium=direct&utm_campaign=forms-test",
+          linkLabel: "View page",
+        },
+        {
+          icon: "database",
+          tag: "Automation & Sales Tools",
+          title: "Custom Quoting Portal for Consultants",
+          detail: "An auto-generated, consultant-specific page built to speed up sales quoting.",
+          url: "https://windmar.com/pr/consultor/4258103001706308419",
+          linkLabel: "View example",
+        },
+        {
+          icon: "video",
+          tag: "Content Production",
+          title: "Brand & Institutional Video Series",
+          detail: "A video series produced to strengthen brand presence and organic content on YouTube.",
+          url: "https://www.youtube.com/playlist?list=PLfiAUJk6iOV0LjQMlqfZMR2N-SNfbJf_w",
+          linkLabel: "View playlist",
+        },
+        {
+          icon: "bot",
+          tag: "AI, Dashboards & Automation",
+          title: "AI-Powered Business Dashboard",
+          detail:
+            "An example of an AI dashboard for business visibility and automation. Link pending confirmation.",
+          url: null,
+          linkLabel: null,
+        },
+      ],
+    },
     proposal: {
       label: "The Proposal",
       title: "A Fractional Marketing Chief",
@@ -251,13 +294,13 @@ export const sections = {
           icon: "users",
           title: "Pamela Felicié — Partner, Solo Agency",
           detail:
-            "Leads strategy and day-to-day execution for this engagement. Holds a Master's in Integrated Advertising (Creativity & Strategy) and currently runs multi-country LATAM marketing — across construction, agriculture, and logistics — for Teselta, directly relevant to Pelegrina's regional expansion.",
+            "Leads strategy and day-to-day execution for this engagement. Holds a Master's in Integrated Advertising. During her time at Teselta, she ran multi-country LATAM marketing (Costa Rica, Panama, and the Dominican Republic) across construction, agriculture, and logistics. On this project, her deliverables include market-entry strategy, paid channel activation, and monthly performance reporting.",
         },
         {
           icon: "building",
           title: "Bryan López — Senior Strategic Support",
           detail:
-            "Former Marketing & IT Coordinator at Pelegrina Medical, with established trust with the President and Operations Manager. Now Outbound & CX Director at WindMar Home, where he led the rollout of an AI-powered appointment-setting platform — advising on strategy without owning day-to-day execution here.",
+            "Former Marketing & IT Coordinator at Pelegrina Medical, with established trust with the President and Operations Manager. Today he's Digital Marketing Director at WindMar Home for Puerto Rico and Florida, leading paid media, analytics, and remarketing efforts to grow LTV, alongside building sales-support platforms like AI chatbots, quoting portals, and custom websites. On this project, he advises on strategy without owning day-to-day execution.",
         },
         {
           icon: "comments",
@@ -285,22 +328,23 @@ export const sections = {
         {
           icon: "bullhorn",
           title: "Paid channel activation",
-          detail: "Stand up Google, LinkedIn, and Meta advertising",
+          detail: "Google, LinkedIn, and Meta advertising, plus remarketing and cold outreach",
         },
         {
           icon: "search",
-          title: "SEO & content roadmap",
-          detail: "Regional landing pages and an organic content engine",
+          title: "Organic Growth & Content Engine",
+          detail: "Regional landing pages, SEO, and a content system built for organic reach",
         },
         {
           icon: "userTie",
           title: "Sales enablement",
-          detail: "Pipeline and positioning support for international sales",
+          detail:
+            "Pipeline and positioning support for international sales, backed by automation and custom platforms",
         },
         {
-          icon: "pen",
-          title: "Creative workflow support",
-          detail: "Prioritization and direction for the in-house team",
+          icon: "barChart",
+          title: "Analytics & Performance Dashboards",
+          detail: "Centralized reporting across channels and regions to track what's working and reallocate fast",
         },
       ],
     },
@@ -359,19 +403,16 @@ export const sections = {
       title: "A sample first campaign (one quarter)",
       phases: [
         {
-          range: "Days 1–30",
           title: "Align & Audit",
           detail:
             "Confirm priority markets, review current channels and assets, agree on KPIs with leadership.",
         },
         {
-          range: "Days 31–60",
           title: "Launch & Localize",
           detail:
             "Stand up first paid channel(s) and regional landing pages; brief the in-house team on new creative needs.",
         },
         {
-          range: "Days 61–90",
           title: "Measure & Expand",
           detail:
             "Review early results, double down on what's working, and sequence the next region.",
@@ -590,6 +631,48 @@ export const sections = {
       footnote:
         "No todas las capacidades aplican desde el primer día: el objetivo es elegir deliberadamente de un menú completo, no por defecto de uno limitado.",
     },
+    showcase: {
+      label: "En Acción",
+      title: "Ejemplos que Puedes Revisar Ahora Mismo",
+      intro: "Trabajo real, no mockups: así se ven estas capacidades ya en producción.",
+      items: [
+        {
+          icon: "pin",
+          tag: "SEO Local",
+          title: "Página Local para el Sector Salud",
+          detail:
+            "Página de aterrizaje geolocalizada (Houston, TX) construida para capturar búsquedas locales de salud y convertir con seguimiento de campaña.",
+          url: "https://habl.io/en/healthcare/tx/houston?utm_source=test&utm_medium=direct&utm_campaign=forms-test",
+          linkLabel: "Ver página",
+        },
+        {
+          icon: "database",
+          tag: "Automatización y Herramientas de Ventas",
+          title: "Portal de Cotización Personalizado para Consultores",
+          detail:
+            "Página generada automáticamente por consultor, construida para acelerar las cotizaciones de la fuerza de ventas.",
+          url: "https://windmar.com/pr/consultor/4258103001706308419",
+          linkLabel: "Ver ejemplo",
+        },
+        {
+          icon: "video",
+          tag: "Producción de Contenido",
+          title: "Serie de Videos Institucionales y de Marca",
+          detail:
+            "Serie de videos producidos para reforzar la presencia de marca y el contenido orgánico en YouTube.",
+          url: "https://www.youtube.com/playlist?list=PLfiAUJk6iOV0LjQMlqfZMR2N-SNfbJf_w",
+          linkLabel: "Ver playlist",
+        },
+        {
+          icon: "bot",
+          tag: "IA, Dashboards y Automatización",
+          title: "Dashboard de Negocio Impulsado por IA",
+          detail: "Ejemplo de dashboard con IA para visibilidad de negocio y automatización. Enlace pendiente de confirmar.",
+          url: null,
+          linkLabel: null,
+        },
+      ],
+    },
     proposal: {
       label: "La Propuesta",
       title: "Marketing Fraccional",
@@ -631,13 +714,13 @@ export const sections = {
           icon: "users",
           title: "Pamela Felicié, Partner en Solo Agency",
           detail:
-            "Dirige la estrategia y la ejecución día a día de este proyecto. Tiene una Maestría en Publicidad Integrada (Creatividad y Estrategia) y actualmente lleva el marketing multi-país en LATAM, en construcción, agricultura y logística, para Teselta, directamente relevante para la expansión regional de Pelegrina.",
+            "Dirige la estrategia y la ejecución día a día de este proyecto. Tiene una Maestría en Publicidad Integrada. Durante su tiempo en Teselta, llevó el marketing multi-país en LATAM (Costa Rica, Panamá y República Dominicana), en construcción, agricultura y logística. En este proyecto, sus entregables incluyen la estrategia de entrada a mercado, la activación de canales pagados y los reportes mensuales de desempeño.",
         },
         {
           icon: "building",
           title: "Bryan López, Apoyo Estratégico Senior",
           detail:
-            "Ex Coordinador de Marketing e IT en Pelegrina Medical, con confianza ya establecida con el Presidente y la Gerente de Operaciones. Hoy es Director de Outbound y Experiencia del Cliente en WindMar Home, donde lideró la implementación de una plataforma de citas impulsada por IA, asesorando en estrategia sin asumir la ejecución diaria en este proyecto.",
+            "Ex Coordinador de Marketing e IT en Pelegrina Medical, con confianza ya establecida con el Presidente y la Gerente de Operaciones. Hoy es Director de Marketing Digital en WindMar Home para Puerto Rico y Florida, donde lidera los esfuerzos de pauta digital, analítica y remarketing para aumentar el LTV, junto al desarrollo de plataformas de apoyo a la fuerza de ventas, como AI chatbots, portales de cotización, páginas web personalizadas y más. En este proyecto, asesora en estrategia sin asumir la ejecución diaria.",
         },
         {
           icon: "comments",
@@ -665,22 +748,23 @@ export const sections = {
         {
           icon: "bullhorn",
           title: "Activación de canales pagados",
-          detail: "Implementar publicidad en Google, LinkedIn y Meta",
+          detail: "Publicidad en Google, LinkedIn y Meta, más esfuerzos de remarketing y cold outreach",
         },
         {
           icon: "search",
-          title: "SEO y plan de contenido",
-          detail: "Páginas de destino regionales y un motor de contenido orgánico",
+          title: "Crecimiento Orgánico y Motor de Contenido",
+          detail: "Páginas de destino regionales, SEO y un sistema de contenido pensado para alcance orgánico",
         },
         {
           icon: "userTie",
           title: "Apoyo a ventas",
-          detail: "Soporte de pipeline y posicionamiento para ventas internacionales",
+          detail:
+            "Soporte de pipeline y posicionamiento para ventas internacionales, respaldado por automatización y plataformas personalizadas",
         },
         {
-          icon: "pen",
-          title: "Apoyo al flujo creativo",
-          detail: "Priorización y dirección para el equipo interno",
+          icon: "barChart",
+          title: "Analítica y Tableros de Desempeño",
+          detail: "Reportes centralizados por canal y región para ver qué funciona y reasignar rápido",
         },
       ],
     },
@@ -739,19 +823,16 @@ export const sections = {
       title: "Ejemplo de primera campaña (un trimestre)",
       phases: [
         {
-          range: "Días 1–30",
           title: "Alinear y Auditar",
           detail:
             "Confirmar mercados prioritarios, revisar canales y activos actuales, y acordar KPIs con la dirección.",
         },
         {
-          range: "Días 31–60",
           title: "Lanzar y Localizar",
           detail:
             "Activar el primer canal pagado y las páginas de destino regionales; informar al equipo interno sobre nuevas necesidades creativas.",
         },
         {
-          range: "Días 61–90",
           title: "Medir y Expandir",
           detail:
             "Revisar resultados iniciales, reforzar lo que funciona y secuenciar la siguiente región.",

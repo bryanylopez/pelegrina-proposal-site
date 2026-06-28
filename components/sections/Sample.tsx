@@ -36,14 +36,7 @@ export function Sample() {
                   >
                     {i + 1}
                   </span>
-                  <span
-                    className={`mt-4 text-xs font-bold uppercase tracking-[0.15em] ${
-                      active ? "text-white/50" : "text-brand-muted"
-                    }`}
-                  >
-                    {p.range}
-                  </span>
-                  <h3 className="mt-2 font-display text-xl font-semibold">{p.title}</h3>
+                  <h3 className="mt-4 font-display text-xl font-semibold">{p.title}</h3>
                   <p
                     className={`mt-3 text-sm leading-relaxed ${
                       active ? "text-white/70" : "text-brand-muted"
