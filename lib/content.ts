@@ -241,6 +241,7 @@ export const sections = {
         },
       ],
     },
+    // TODO: pending review/update of Bryan's and Pamela's bios below once finalized.
     why: {
       label: "Why This Works",
       title: "Starting from trust, not a cold introduction",
@@ -388,16 +389,15 @@ export const sections = {
     hero: {
       kicker: "Liderazgo de Marketing Fraccional",
       title: "Una Propuesta para Pelegrina Medical",
-      subtitle:
-        "Construyendo el motor de marketing para la expansión hacia LATAM, Estados Unidos y el Caribe",
-      preparedBy: "Preparado por Pamela Felicié, con apoyo de Bryan López",
+      subtitle: "Construyendo el motor de marketing para la nueva expansión.",
+      preparedBy: "Preparado por Pamela Felicié",
       preparedFor: "Para el equipo directivo de Pelegrina Medical, Inc.",
     },
     opportunity: {
       label: "La Oportunidad",
-      title: "45 años construidos en Puerto Rico. El próximo capítulo es regional.",
+      title: "45 años construidos en Puerto Rico. El próximo capítulo es fuera de la Isla.",
       body:
-        "Pelegrina cuenta con el catálogo de productos, las relaciones con fabricantes y la reputación para atender hospitales y clínicas mucho más allá de Puerto Rico. La meta estratégica ahora es convertir esa base en demanda activa en tres nuevas regiones.",
+        "Pelegrina cuenta con el catálogo de productos, las relaciones con manufactureros y la reputación para atender hospitales y clínicas mucho más allá de Puerto Rico. La meta estratégica ahora es convertir esa base en demanda activa en tres nuevas regiones.",
       regions: [
         { name: "LATAM", detail: "Nueva demanda de hospitales y distribuidores" },
         { name: "Estados Unidos", detail: "Mercados de compras y EMS en el territorio continental" },
@@ -407,34 +407,34 @@ export const sections = {
         { number: "45", label: "años en operación" },
         { number: "30+", label: "marcas distribuidas" },
         { number: "3", label: "nuevas regiones objetivo" },
-        { number: "Baja", label: "capacidad de ventas internacionales hoy" },
+        { number: "Escasa", label: "capacidad de ventas internacional hoy" },
       ],
     },
     audit: {
       label: "Hallazgos de la Auditoría",
-      title: "Lo que encontró la auditoría de marca y marketing",
+      title: "Hallazgos de la auditoría de marca y marketing",
       intro:
-        "Una auditoría de escritorio del sitio web, SEO, redes sociales, correo electrónico y medios pagados — realizada antes de esta conversación.",
+        "Una auditoría de escritorio de la página web, SEO, redes sociales, correo electrónico y medios pagados, realizada antes de esta conversación.",
       findings: [
         {
           icon: "thumbsUp",
           title: "Una Base Sólida Ya Establecida",
           items: [
-            "Un sitio web recién renovado y adaptado a móviles, con identidad de marca consistente en los seis canales sociales.",
-            "45 años de historia y relaciones directas con fabricantes — una credibilidad que los nuevos competidores no tienen.",
+            "Una página web recién renovada y adaptada a móviles, con identidad de marca consistente en los seis canales sociales.",
+            "45 años de historia y relaciones directas con manufactureros, una credibilidad que los nuevos competidores no tienen.",
           ],
         },
         {
           icon: "bullhorn",
           title: "Canales Inactivos o Sin Medición",
           items: [
-            "No se observan campañas pagadas en Google, Meta o LinkedIn hoy — la demanda depende principalmente del contenido orgánico y el contacto directo.",
+            "No se observan campañas pagadas en Google, Meta o LinkedIn hoy: la demanda depende principalmente del contenido orgánico y el contacto directo.",
             "El correo se maneja en Mailchimp desde hace años, pero el tamaño de la lista y su rendimiento aún no se monitorean.",
           ],
         },
       ],
       footnote:
-        "Las brechas tienen que ver con alcance y estructura — no con la calidad del trabajo que ya se realiza.",
+        "Las brechas tienen que ver con alcance y estructura, no con la calidad del trabajo que ya se realiza.",
     },
     today: {
       label: "Dónde Estamos Hoy",
@@ -468,18 +468,18 @@ export const sections = {
     },
     gap: {
       label: "La Brecha",
-      title: "Tres nuevos mercados necesitan a alguien que dirija — no solo que ejecute",
+      title: "Tres nuevos mercados necesitan a alguien que dirija, no solo que ejecute",
       body:
-        "El equipo interno está estructurado para la ejecución constante: producir piezas, publicar contenido, mantener el sitio web actualizado. Eso es trabajo real y valioso. Lo que falta es alguien cuya función sea definir la estrategia: qué mercado abrir primero, qué canales financiar, cómo secuenciar tres lanzamientos sin sobrecargar a un equipo interno y una fuerza de ventas reducidos.",
-      calloutTitle: "Esto no es un problema de calidad — es un problema de capacidad.",
+        "El equipo interno está estructurado para la ejecución constante: producir piezas, publicar contenido, mantener la página web actualizada. Eso es trabajo real y valioso. Lo que falta es alguien cuya función sea definir la estrategia: qué mercado abrir primero, qué canales financiar, cómo secuenciar tres lanzamientos sin sobrecargar a un equipo interno y una fuerza de ventas reducidos.",
+      calloutTitle: "Esto no es un problema de calidad, es un problema de capacidad.",
       calloutBody:
-        "La estrategia, la secuenciación y la asignación de presupuesto en tres nuevas regiones están naturalmente por encima de la ejecución diaria — y en este momento, nadie es responsable de esa capa a tiempo completo.",
+        "La estrategia, la secuenciación y la asignación de presupuesto en tres nuevas regiones están naturalmente por encima de la ejecución diaria, y en este momento, nadie es responsable de esa capa a tiempo completo.",
     },
     capabilities: {
       label: "Lo Que Es Posible",
       title: "Más allá de la propuesta: el conjunto completo de herramientas disponibles",
       intro:
-        "Antes de enfocarnos en una modalidad específica, vale la pena ver el rango completo de lo que una operación de marketing moderna puede activar — mucho más allá de la publicidad tradicional.",
+        "Antes de enfocarnos en una modalidad específica, vale la pena ver el rango completo de lo que una operación de marketing moderna puede activar, mucho más allá de la publicidad tradicional.",
       items: [
         {
           icon: "target",
@@ -523,13 +523,13 @@ export const sections = {
         },
       ],
       footnote:
-        "No todas las capacidades aplican desde el primer día — el objetivo es elegir deliberadamente de un menú completo, no por defecto de uno limitado.",
+        "No todas las capacidades aplican desde el primer día: el objetivo es elegir deliberadamente de un menú completo, no por defecto de uno limitado.",
     },
     proposal: {
       label: "La Propuesta",
-      title: "Un Director de Marketing Fraccional",
+      title: "Marketing Fraccional",
       intro:
-        "Dentro de ese menú completo, la propuesta a continuación es el punto de partida enfocado: liderazgo senior de marketing entregado a través de campañas definidas de entrada a mercado y una cadencia estratégica trimestral — liderado por Pamela Felicié (Partner, Solo Agency), con Bryan López brindando apoyo estratégico senior, para que la ejecución no dependa de la disponibilidad de una sola persona.",
+        "Dentro de ese menú completo, la propuesta a continuación es el punto de partida enfocado: liderazgo senior de marketing entregado a través de campañas definidas de entrada a mercado y una cadencia estratégica trimestral, liderado por Pamela Felicié (Partner, Solo Agency), con Bryan López brindando apoyo estratégico senior, para que la ejecución no dependa de la disponibilidad de una sola persona.",
       rows: [
         {
           icon: "users",
@@ -557,27 +557,28 @@ export const sections = {
         },
       ],
     },
+    // TODO: pendiente revisar/actualizar las biografías de Bryan y Pamela una vez confirmadas.
     why: {
       label: "Por Qué Esto Funciona",
       title: "Partiendo de la confianza, no de una presentación en frío",
       items: [
         {
           icon: "users",
-          title: "Pamela Felicié — Partner, Solo Agency",
+          title: "Pamela Felicié, Partner en Solo Agency",
           detail:
-            "Dirige la estrategia y la ejecución día a día de este proyecto. Tiene una Maestría en Publicidad Integrada (Creatividad y Estrategia) y actualmente lleva el marketing multi-país en LATAM — en construcción, agricultura y logística — para Teselta, directamente relevante para la expansión regional de Pelegrina.",
+            "Dirige la estrategia y la ejecución día a día de este proyecto. Tiene una Maestría en Publicidad Integrada (Creatividad y Estrategia) y actualmente lleva el marketing multi-país en LATAM, en construcción, agricultura y logística, para Teselta, directamente relevante para la expansión regional de Pelegrina.",
         },
         {
           icon: "building",
-          title: "Bryan López — Apoyo Estratégico Senior",
+          title: "Bryan López, Apoyo Estratégico Senior",
           detail:
-            "Ex Coordinador de Marketing e IT en Pelegrina Medical, con confianza ya establecida con el Presidente y la Gerente de Operaciones. Hoy es Director de Outbound y Experiencia del Cliente en WindMar Home, donde lideró la implementación de una plataforma de citas impulsada por IA — asesorando en estrategia sin asumir la ejecución diaria en este proyecto.",
+            "Ex Coordinador de Marketing e IT en Pelegrina Medical, con confianza ya establecida con el Presidente y la Gerente de Operaciones. Hoy es Director de Outbound y Experiencia del Cliente en WindMar Home, donde lideró la implementación de una plataforma de citas impulsada por IA, asesorando en estrategia sin asumir la ejecución diaria en este proyecto.",
         },
         {
           icon: "comments",
           title: "Una Red de Colaboradores Especializados",
           detail:
-            "Desarrollo web, fotografía y videografía, incorporados por proyecto — la ejecución no depende de la disponibilidad de una sola persona.",
+            "Desarrollo web, fotografía y videografía, incorporados por proyecto: la ejecución no depende de la disponibilidad de una sola persona.",
         },
         {
           icon: "rocket",
@@ -626,7 +627,7 @@ export const sections = {
           icon: "rocket",
           title: "Campañas de Entrada a Mercado",
           items: [
-            "Cada región — LATAM, Estados Unidos, el Caribe — se define como su propia campaña, con entregables claros y una fecha de inicio y fin.",
+            "Cada región (LATAM, Estados Unidos, el Caribe) se define como su propia campaña, con entregables claros y una fecha de inicio y fin.",
             "El trabajo se realiza durante la duración de la campaña, no de forma mensual continua.",
             "El alcance y los términos se acuerdan antes de que inicie cada campaña.",
           ],
@@ -635,14 +636,14 @@ export const sections = {
           icon: "calendar",
           title: "Consultoría Estratégica Trimestral",
           items: [
-            "Una revisión estructurada cada 3 meses — no un contrato mensual.",
+            "Una revisión estructurada cada 3 meses, no un contrato mensual.",
             "Revisa resultados, reajusta prioridades y planifica la siguiente campaña.",
             "Mantiene la estrategia alineada con el negocio entre campañas activas.",
           ],
         },
       ],
       footnote:
-        "Ambas modalidades se definen y cotizan de forma individual — a determinar en conjunto una vez se confirmen las prioridades en esta conversación.",
+        "Ambas modalidades se definen y cotizan de forma individual, a determinar en conjunto una vez se confirmen las prioridades en esta conversación.",
     },
     sample: {
       label: "Primeros Pasos",
@@ -694,7 +695,7 @@ export const sections = {
       steps: [
         "Aprovechar esta reunión para poner a prueba prioridades, plazos y cómo se ve el éxito en cada región.",
         "Acordar el alcance y los términos para la primera campaña de entrada a mercado y la cadencia de consultoría trimestral.",
-        "Establecer una fecha de inicio para que la primera campaña — y el primer ciclo trimestral — puedan comenzar sin demora.",
+        "Establecer una fecha de inicio para que la primera campaña, y el primer ciclo trimestral, puedan comenzar sin demora.",
       ],
       contactLabel: "Hablemos",
     },
