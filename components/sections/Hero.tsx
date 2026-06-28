@@ -33,7 +33,7 @@ export function Hero() {
             <img
               src="/brand-composers-logo-white.png"
               alt="Brand Composers"
-              className="mt-4 h-5 w-auto opacity-80"
+              className="mt-4 h-7 w-auto opacity-90"
             />
           </div>
           <button

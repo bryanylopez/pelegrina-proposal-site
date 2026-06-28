@@ -145,7 +145,7 @@ export function QuickStart() {
           <img
             src="/brand-composers-logo.png"
             alt="Brand Composers"
-            className="h-6 w-auto opacity-80"
+            className="h-8 w-auto opacity-90"
           />
           <p className="max-w-3xl text-sm italic text-brand-muted">{s.footnote}</p>
         </div>

@@ -39,23 +39,12 @@ export function Nav() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="flex items-center gap-2"
+            className="flex items-center"
           >
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-brand-red text-xs font-bold text-white">
-              PM
-            </span>
-            <span
-              className={`font-display text-sm font-semibold tracking-tight ${
-                scrolled ? "text-brand-black" : "text-white"
-              }`}
-            >
-              Pelegrina × Solo
-            </span>
-            <span className="ml-2 hidden h-4 w-px bg-current opacity-20 sm:block" />
             <img
               src={scrolled ? "/brand-composers-logo.png" : "/brand-composers-logo-white.png"}
               alt="Brand Composers"
-              className="hidden h-4 w-auto opacity-80 sm:block"
+              className="h-7 w-auto"
             />
           </button>
 
@@ -85,7 +74,7 @@ export function Nav() {
         }`}
       >
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
-          <span className="font-display text-sm font-semibold">Pelegrina × Solo</span>
+          <img src="/brand-composers-logo-white.png" alt="Brand Composers" className="h-7 w-auto" />
           <button
             onClick={() => setOpen(false)}
             aria-label={t.menuClose}
