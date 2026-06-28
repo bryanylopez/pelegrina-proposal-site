@@ -20,6 +20,7 @@ export const nav = {
     { id: "engagement", label: "Engagement" },
     { id: "sample", label: "Sample Campaign" },
     { id: "quickstart", label: "Quick Start" },
+    { id: "questions", label: "Key Questions" },
     { id: "next", label: "Next Steps" },
   ],
   es: [
@@ -34,6 +35,7 @@ export const nav = {
     { id: "engagement", label: "Modalidad" },
     { id: "sample", label: "Campaña Ejemplo" },
     { id: "quickstart", label: "Primer Paso" },
+    { id: "questions", label: "Preguntas Clave" },
     { id: "next", label: "Próximos Pasos" },
   ],
 };
@@ -304,30 +306,54 @@ export const sections = {
       ],
     },
     engagement: {
-      label: "How It Works",
-      title: "Project-based, not month-to-month",
-      tracks: [
-        {
-          icon: "rocket",
-          title: "Market-Entry Campaigns",
-          items: [
-            "Each region — LATAM, the U.S., the Caribbean — is scoped as its own defined campaign, with clear deliverables and a start and end date.",
-            "Work runs for the length of the campaign, not on an ongoing monthly basis.",
-            "Scope and terms are agreed before each campaign begins.",
-          ],
-        },
+      label: "How We'd Work Together",
+      title: "Embedded in your team, not a report dropped on your desk",
+      intro:
+        "Before talking pricing tracks, here's what actually changes week to week: who's involved, what gets reviewed, and what access is needed to move.",
+      rhythm: [
         {
           icon: "calendar",
-          title: "Quarterly Strategic Consulting",
-          items: [
-            "A structured check-in every 3 months — not a monthly retainer.",
-            "Reviews results, resets priorities, and plans the next campaign.",
-            "Keeps strategy aligned with the business between active campaigns.",
-          ],
+          title: "Weekly Touchpoint",
+          detail:
+            "A standing check-in with leadership and the in-house team to unblock decisions and keep direction tight.",
+        },
+        {
+          icon: "users",
+          title: "Shared Execution",
+          detail:
+            "Pamela leads strategy and hands-on execution; the in-house team keeps day-to-day content and the website running while new channels stand up.",
+        },
+        {
+          icon: "barChart",
+          title: "Monthly Reporting",
+          detail:
+            "A shared dashboard by channel and region, reviewed monthly, so decisions are based on numbers, not guesswork.",
+        },
+        {
+          icon: "database",
+          title: "Direct Access",
+          detail:
+            "Access to ad accounts, CRM, analytics, and the content calendar, so execution doesn't run through a third party.",
         },
       ],
-      footnote:
-        "Both tracks are scoped and priced individually — to be defined together once priorities are confirmed in this conversation.",
+      fit: {
+        title: "When a Fractional CMO Makes Sense (and When It Doesn't)",
+        yesLabel: "This is a good fit if...",
+        yesItems: [
+          "There's real traction and a product catalog, but no one owns where to expand next.",
+          "The in-house team can execute but isn't set up to define strategy or sequence priorities.",
+          "You want measurable results within months, without committing to a full-time hire yet.",
+          "You want to test the Marketing Chief function before making it a permanent role.",
+        ],
+        noLabel: "It's probably not the right time if...",
+        noItems: [
+          "There's no budget to activate paid channels; strategy without media spend has limits.",
+          "What's needed is someone full-time and on-site, managing a large team day to day.",
+          "Priorities shift week to week, with no room to hold a quarterly plan.",
+          "What's wanted is pure execution, with no one revising or adjusting the strategy.",
+        ],
+      },
+      footnote: "Cadence and hours are scoped to budget and priorities; see the Key Questions below.",
     },
     sample: {
       label: "Getting Started",
@@ -373,6 +399,47 @@ export const sections = {
       ctaLabel: "Let's schedule it",
       footnote:
         "Estimate based on per-person rates from quote QT-000002 (Brand Composers): $200 for 1 person, $150/person up to 5, $50/person from 6 to 20+. Final pricing confirmed in writing before scheduling.",
+    },
+    keyQuestions: {
+      label: "Key Questions",
+      title: "Questions Worth Answering Before We Finalize Scope",
+      intro:
+        "This proposal is a starting point, not a finished plan. These are the questions that will shape it the most.",
+      items: [
+        {
+          icon: "barChart",
+          question:
+            "What budget range is available for media spend in these 3 regions, separate from the consulting fee?",
+        },
+        {
+          icon: "map",
+          question:
+            "Which market gets priority first: LATAM, the U.S., or the Caribbean, or is that still open?",
+        },
+        {
+          icon: "handshake",
+          question: "Who approves marketing decisions, and how quickly?",
+        },
+        {
+          icon: "users",
+          question:
+            "How much time can the in-house team realistically give to new initiatives, beyond their current workload?",
+        },
+        {
+          icon: "database",
+          question:
+            "What access already exists to tools like the CRM, ad accounts, analytics, and Mailchimp?",
+        },
+        {
+          icon: "target",
+          question: "How is success measured: leads, distributor meetings, sales, or brand presence?",
+        },
+        {
+          icon: "calendar",
+          question: "Is there a date or event driving the timing of this expansion?",
+        },
+      ],
+      footnote: "Answers here directly shape cadence, pricing, and which region comes first.",
     },
     next: {
       label: "Next Steps",
@@ -620,30 +687,54 @@ export const sections = {
       ],
     },
     engagement: {
-      label: "Cómo Funciona",
-      title: "Por proyecto, no mes a mes",
-      tracks: [
-        {
-          icon: "rocket",
-          title: "Campañas de Entrada a Mercado",
-          items: [
-            "Cada región (LATAM, Estados Unidos, el Caribe) se define como su propia campaña, con entregables claros y una fecha de inicio y fin.",
-            "El trabajo se realiza durante la duración de la campaña, no de forma mensual continua.",
-            "El alcance y los términos se acuerdan antes de que inicie cada campaña.",
-          ],
-        },
+      label: "Cómo Trabajamos",
+      title: "Integrados a tu equipo, no un reporte que se entrega y se va",
+      intro:
+        "Antes de hablar de modalidades de precio, esto es lo que cambia semana a semana: quién participa, qué se revisa y qué acceso se necesita para avanzar.",
+      rhythm: [
         {
           icon: "calendar",
-          title: "Consultoría Estratégica Trimestral",
-          items: [
-            "Una revisión estructurada cada 3 meses, no un contrato mensual.",
-            "Revisa resultados, reajusta prioridades y planifica la siguiente campaña.",
-            "Mantiene la estrategia alineada con el negocio entre campañas activas.",
-          ],
+          title: "Punto de Contacto Semanal",
+          detail:
+            "Una reunión fija con liderazgo y el equipo interno para destrabar decisiones y mantener el rumbo.",
+        },
+        {
+          icon: "users",
+          title: "Ejecución Compartida",
+          detail:
+            "Pamela lidera la estrategia y la ejecución directa; el equipo interno mantiene lo operativo (contenido, redes, página web) mientras se activan los canales nuevos.",
+        },
+        {
+          icon: "barChart",
+          title: "Reportes Mensuales",
+          detail:
+            "Un dashboard compartido por canal y región, revisado cada mes, para decidir con números y no por intuición.",
+        },
+        {
+          icon: "database",
+          title: "Acceso Directo",
+          detail:
+            "Acceso a cuentas de anuncios, CRM, analítica y calendario de contenido, para que la ejecución no dependa de intermediarios.",
         },
       ],
-      footnote:
-        "Ambas modalidades se definen y cotizan de forma individual, a determinar en conjunto una vez se confirmen las prioridades en esta conversación.",
+      fit: {
+        title: "¿Cuándo Tiene Sentido un Marketing Fraccional (y Cuándo No)?",
+        yesLabel: "Tiene sentido si...",
+        yesItems: [
+          "Ya hay tracción y catálogo, pero nadie dirige hacia dónde expandir primero.",
+          "El equipo interno puede ejecutar, pero no está armado para definir estrategia ni priorizar.",
+          "Buscan resultados medibles en meses, sin comprometerse todavía a una contratación de tiempo completo.",
+          "Quieren probar la función de Marketing Chief antes de convertirla en un puesto permanente.",
+        ],
+        noLabel: "Probablemente no es el momento si...",
+        noItems: [
+          "No hay presupuesto para activar canales pagados: la estrategia sin inversión en medios tiene límites.",
+          "Lo que se necesita es alguien de tiempo completo y presencial, gestionando un equipo grande día a día.",
+          "Las prioridades cambian semana a semana, sin espacio para sostener un plan trimestral.",
+          "Lo que buscan es ejecución pura, sin que nadie revise ni ajuste la estrategia.",
+        ],
+      },
+      footnote: "La cadencia y las horas se definen según presupuesto y prioridades: ver las Preguntas Clave más abajo.",
     },
     sample: {
       label: "Primeros Pasos",
@@ -688,6 +779,47 @@ export const sections = {
       ctaLabel: "Coordinémoslo",
       footnote:
         "Estimado basado en las tarifas por persona de la cotización QT-000002 (Brand Composers): $200 por 1 persona, $150/persona hasta 5, $50/persona de 6 a 20+. Precio final confirmado por escrito antes de coordinar.",
+    },
+    keyQuestions: {
+      label: "Preguntas Clave",
+      title: "Preguntas que Vale la Pena Responder Antes de Cerrar el Alcance",
+      intro:
+        "Esta propuesta es un punto de partida, no un plan terminado. Estas son las preguntas que más le van a dar forma.",
+      items: [
+        {
+          icon: "barChart",
+          question:
+            "¿Qué rango de presupuesto hay disponible para medios pagados en estas 3 regiones, aparte del fee de consultoría?",
+        },
+        {
+          icon: "map",
+          question:
+            "¿Qué mercado se prioriza primero: LATAM, Estados Unidos o el Caribe, o eso todavía está abierto?",
+        },
+        {
+          icon: "handshake",
+          question: "¿Quién aprueba las decisiones de marketing y con qué rapidez?",
+        },
+        {
+          icon: "users",
+          question:
+            "¿Cuánto tiempo puede dedicar realmente el equipo interno a nuevas iniciativas, más allá de su carga actual?",
+        },
+        {
+          icon: "database",
+          question:
+            "¿Qué acceso existe hoy a herramientas como el CRM, cuentas de anuncios, analítica y Mailchimp?",
+        },
+        {
+          icon: "target",
+          question: "¿Cómo se mide el éxito: leads, reuniones con distribuidores, ventas o presencia de marca?",
+        },
+        {
+          icon: "calendar",
+          question: "¿Hay una fecha o evento que esté impulsando el momento de esta expansión?",
+        },
+      ],
+      footnote: "Las respuestas aquí definen directamente la cadencia, el precio y qué región va primero.",
     },
     next: {
       label: "Próximos Pasos",
