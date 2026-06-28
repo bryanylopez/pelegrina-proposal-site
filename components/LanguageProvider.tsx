@@ -21,7 +21,7 @@ const LanguageContext = createContext<LanguageContextValue | undefined>(
 );
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>("en");
+  const [locale, setLocaleState] = useState<Locale>("es");
 
   useEffect(() => {
     const stored =
@@ -30,9 +30,6 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         : null;
     if (stored === "en" || stored === "es") {
       setLocaleState(stored);
-    } else if (typeof navigator !== "undefined") {
-      const browserLang = navigator.language?.toLowerCase() ?? "";
-      if (browserLang.startsWith("es")) setLocaleState("es");
     }
   }, []);
 

@@ -5,6 +5,7 @@ import { Opportunity } from "@/components/sections/Opportunity";
 import { Audit } from "@/components/sections/Audit";
 import { Today } from "@/components/sections/Today";
 import { Gap } from "@/components/sections/Gap";
+import { Capabilities } from "@/components/sections/Capabilities";
 import { Proposal } from "@/components/sections/Proposal";
 import { Why } from "@/components/sections/Why";
 import { Scope } from "@/components/sections/Scope";
@@ -21,6 +22,7 @@ export default function Home() {
       <Audit />
       <Today />
       <Gap />
+      <Capabilities />
       <Proposal />
       <Why />
       <Scope />

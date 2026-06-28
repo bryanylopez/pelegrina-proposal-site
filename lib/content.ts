@@ -1,16 +1,7 @@
-// Source of truth: build_proposal.js (EN) and build_proposal_es.js (ES) —
-// the verbatim Pelegrina Medical Fractional Marketing Chief proposal decks.
-// Every figure and claim below is transcribed from those decks. No facts,
-// figures, names, or claims have been invented for the website.
-//
-// Contact details on this site (phone + email) were supplied directly by
-// the user for this web build and intentionally differ from the deck's
-// footer (which still reads info@solo.ac).
-
 export type Locale = "en" | "es";
 
 export const contact = {
-  name: "Bryan López",
+  name: "Pamela Felicié",
   phone: "(939) 232-6170",
   phoneHref: "+19392326170",
   email: "info@brandcomposers.com",
@@ -22,6 +13,7 @@ export const nav = {
     { id: "audit", label: "Audit" },
     { id: "today", label: "Today" },
     { id: "gap", label: "The Gap" },
+    { id: "capabilities", label: "What's Possible" },
     { id: "proposal", label: "The Proposal" },
     { id: "why", label: "Why This Works" },
     { id: "scope", label: "Scope" },
@@ -34,6 +26,7 @@ export const nav = {
     { id: "audit", label: "Auditoría" },
     { id: "today", label: "Hoy" },
     { id: "gap", label: "La Brecha" },
+    { id: "capabilities", label: "Lo Que Es Posible" },
     { id: "proposal", label: "La Propuesta" },
     { id: "why", label: "Por Qué Funciona" },
     { id: "scope", label: "Alcance" },
@@ -51,7 +44,7 @@ export const ui = {
     menuClose: "Close",
     contactCta: "Contact",
     scrollCta: "Read the proposal",
-    footerPrepared: "Prepared by Bryan López for the leadership team of Pelegrina Medical, Inc.",
+    footerPrepared: "Prepared by Pamela Felicié, with strategic support from Bryan López, for the leadership team of Pelegrina Medical, Inc.",
     footerTag: "Pelegrina Medical · Fractional Marketing Chief Proposal",
     preparedFor: "Prepared for",
     preparedBy: "Prepared by",
@@ -64,7 +57,7 @@ export const ui = {
     menuClose: "Cerrar",
     contactCta: "Contacto",
     scrollCta: "Leer la propuesta",
-    footerPrepared: "Preparado por Bryan López para el equipo directivo de Pelegrina Medical, Inc.",
+    footerPrepared: "Preparado por Pamela Felicié, con apoyo estratégico de Bryan López, para el equipo directivo de Pelegrina Medical, Inc.",
     footerTag: "Pelegrina Medical · Propuesta de Director de Marketing Fraccional",
     preparedFor: "Preparado para",
     preparedBy: "Preparado por",
@@ -79,7 +72,7 @@ export const sections = {
       title: "A Proposal for Pelegrina Medical",
       subtitle:
         "Building the marketing engine for expansion into LATAM, the U.S., and the Caribbean",
-      preparedBy: "Prepared by Bryan López",
+      preparedBy: "Prepared by Pamela Felicié, with support from Bryan López",
       preparedFor: "For the leadership team of Pelegrina Medical, Inc.",
     },
     opportunity: {
@@ -96,7 +89,7 @@ export const sections = {
         { number: "45", label: "years in operation" },
         { number: "30+", label: "brands distributed" },
         { number: "3", label: "new regions targeted" },
-        { number: "1", label: "international sales rep today" },
+        { number: "Lean", label: "international sales capacity today" },
       ],
     },
     audit: {
@@ -117,7 +110,7 @@ export const sections = {
           icon: "bullhorn",
           title: "Channels Are Either Off or Unmeasured",
           items: [
-            "No Google, Meta, or LinkedIn ads running — demand relies on organic content and one salesperson.",
+            "No paid Google, Meta, or LinkedIn campaigns visible today — demand currently relies mostly on organic content and direct outreach.",
             "Email has run on Mailchimp for years, but list size and performance still aren't tracked.",
           ],
         },
@@ -137,9 +130,9 @@ export const sections = {
         },
         {
           icon: "bullhorn",
-          big: "0",
-          label: "paid channels running",
-          sub: "No Google, Meta, or LinkedIn ads today",
+          big: "Untapped",
+          label: "paid channels",
+          sub: "No visible Google, Meta, or LinkedIn ads today",
         },
         {
           icon: "users",
@@ -149,9 +142,9 @@ export const sections = {
         },
         {
           icon: "userTie",
-          big: "1",
-          label: "international salesperson",
-          sub: "Carrying outbound for 3 new regions",
+          big: "Lean",
+          label: "international sales capacity",
+          sub: "Outbound for 3 new regions runs on a small team",
         },
       ],
     },
@@ -159,22 +152,72 @@ export const sections = {
       label: "The Gap",
       title: "Three new markets need someone steering — not just executing",
       body:
-        "The in-house team — one graphic designer and one digital marketer — is built for steady-state execution: producing assets, posting content, keeping the website current. That's real, valuable work. What's missing is someone whose job is to set the strategy: which market to enter first, which channels to fund, how to sequence three launches without overwhelming a two-person team and a one-person sales force.",
+        "The in-house team is built for steady-state execution: producing assets, posting content, keeping the website current. That's real, valuable work. What's missing is someone whose job is to set the strategy: which market to enter first, which channels to fund, how to sequence three launches without overwhelming a lean internal team and sales force.",
       calloutTitle: "This isn't a quality problem — it's a capacity problem.",
       calloutBody:
         "Strategy, sequencing, and budget allocation across three new regions naturally sit above day-to-day execution — and right now, no one owns that layer full-time.",
+    },
+    capabilities: {
+      label: "What's Possible",
+      title: "Beyond the proposal: the broader marketing toolkit available",
+      intro:
+        "Before narrowing in on a specific engagement, it's worth seeing the full range of what a modern marketing operation can put to work — much of it well beyond traditional advertising.",
+      items: [
+        {
+          icon: "target",
+          title: "Cold Outreach & Lead Generation",
+          detail: "Personalized outbound to open doors with new accounts directly.",
+        },
+        {
+          icon: "phone",
+          title: "Remarketing & Touchpoints",
+          detail: "Staying in front of prospects across the channels they already use.",
+        },
+        {
+          icon: "barChart",
+          title: "Analytics & Dashboards",
+          detail: "Real-time visibility into what's working, by channel and by region.",
+        },
+        {
+          icon: "zap",
+          title: "Automations & Business Processes",
+          detail: "Removing manual handoffs from lead routing, follow-up, and reporting.",
+        },
+        {
+          icon: "database",
+          title: "CRM Implementation",
+          detail: "A single source of truth for leads, accounts, and pipeline.",
+        },
+        {
+          icon: "bot",
+          title: "AI Projects & Service Chatbots",
+          detail: "From customer-service automation to AI-assisted research and content.",
+        },
+        {
+          icon: "pin",
+          title: "Local SEO",
+          detail: "Stronger visibility in regional search as new markets open up.",
+        },
+        {
+          icon: "rocket",
+          title: "Hablio",
+          detail: "Automated instant scheduling that turns inbound leads into booked appointments in minutes.",
+        },
+      ],
+      footnote:
+        "Not every capability applies on day one — the point is to choose deliberately from a full menu, not by default from a narrow one.",
     },
     proposal: {
       label: "The Proposal",
       title: "A Fractional Marketing Chief",
       intro:
-        "Senior marketing leadership, delivered through defined market-entry campaigns and a quarterly strategic cadence — led by Bryan López and backed by Solo Agency, so execution doesn't rest on one person's bandwidth alone.",
+        "Given that full menu, the proposal below is the focused starting point: senior marketing leadership delivered through defined market-entry campaigns and a quarterly strategic cadence — led by Pamela Felicié (Partner, Solo Agency), with Bryan López providing senior strategic support, so execution doesn't rest on one person's bandwidth alone.",
       rows: [
         {
           icon: "users",
           title: "A Small Team, Not a Solo Operator",
           detail:
-            "Bryan owns strategy and the relationship; Pamela Felicié (Partner, Solo Agency) and collaborators execute.",
+            "Pamela Felicié (Partner, Solo Agency) owns strategy, execution, and the day-to-day relationship; Bryan López provides senior strategic support and collaborators round out delivery.",
         },
         {
           icon: "map",
@@ -201,16 +244,16 @@ export const sections = {
       title: "Starting from trust, not a cold introduction",
       items: [
         {
-          icon: "building",
-          title: "Bryan López — The Pelegrina Insider",
-          detail:
-            "Former member of Pelegrina's own marketing team, with deep product knowledge and established trust with the President and Operations Manager.",
-        },
-        {
           icon: "users",
           title: "Pamela Felicié — Partner, Solo Agency",
           detail:
-            "Digital marketing strategist and founder of Solo Agency, focused on integrated advertising and creative strategy for growing brands.",
+            "Leads strategy and day-to-day execution for this engagement. Holds a Master's in Integrated Advertising (Creativity & Strategy) and currently runs multi-country LATAM marketing — across construction, agriculture, and logistics — for Teselta, directly relevant to Pelegrina's regional expansion.",
+        },
+        {
+          icon: "building",
+          title: "Bryan López — Senior Strategic Support",
+          detail:
+            "Former Marketing & IT Coordinator at Pelegrina Medical, with established trust with the President and Operations Manager. Now Outbound & CX Director at WindMar Home, where he led the rollout of an AI-powered appointment-setting platform — advising on strategy without owning day-to-day execution here.",
         },
         {
           icon: "comments",
@@ -324,7 +367,7 @@ export const sections = {
       title: "Una Propuesta para Pelegrina Medical",
       subtitle:
         "Construyendo el motor de marketing para la expansión hacia LATAM, Estados Unidos y el Caribe",
-      preparedBy: "Preparado por Bryan López",
+      preparedBy: "Preparado por Pamela Felicié, con apoyo de Bryan López",
       preparedFor: "Para el equipo directivo de Pelegrina Medical, Inc.",
     },
     opportunity: {
@@ -341,7 +384,7 @@ export const sections = {
         { number: "45", label: "años en operación" },
         { number: "30+", label: "marcas distribuidas" },
         { number: "3", label: "nuevas regiones objetivo" },
-        { number: "1", label: "representante internacional hoy" },
+        { number: "Limitada", label: "capacidad de ventas internacionales hoy" },
       ],
     },
     audit: {
@@ -362,7 +405,7 @@ export const sections = {
           icon: "bullhorn",
           title: "Canales Inactivos o Sin Medición",
           items: [
-            "No hay anuncios activos en Google, Meta ni LinkedIn — la demanda depende del contenido orgánico y un solo vendedor.",
+            "No se observan campañas pagadas en Google, Meta o LinkedIn hoy — la demanda depende principalmente del contenido orgánico y el contacto directo.",
             "El correo se maneja en Mailchimp desde hace años, pero el tamaño de la lista y su rendimiento aún no se monitorean.",
           ],
         },
@@ -382,9 +425,9 @@ export const sections = {
         },
         {
           icon: "bullhorn",
-          big: "0",
-          label: "canales pagados activos",
-          sub: "Sin anuncios de Google, Meta o LinkedIn hoy",
+          big: "Sin explotar",
+          label: "canales pagados",
+          sub: "No se observan anuncios de Google, Meta o LinkedIn hoy",
         },
         {
           icon: "users",
@@ -394,9 +437,9 @@ export const sections = {
         },
         {
           icon: "userTie",
-          big: "1",
-          label: "vendedor internacional",
-          sub: "A cargo de las ventas para 3 nuevas regiones",
+          big: "Limitada",
+          label: "capacidad de ventas internacionales",
+          sub: "Las ventas para 3 nuevas regiones dependen de un equipo pequeño",
         },
       ],
     },
@@ -404,22 +447,72 @@ export const sections = {
       label: "La Brecha",
       title: "Tres nuevos mercados necesitan a alguien que dirija — no solo que ejecute",
       body:
-        "El equipo interno — un diseñador gráfico y un especialista en marketing digital — está estructurado para la ejecución constante: producir piezas, publicar contenido, mantener el sitio web actualizado. Eso es trabajo real y valioso. Lo que falta es alguien cuya función sea definir la estrategia: qué mercado abrir primero, qué canales financiar, cómo secuenciar tres lanzamientos sin sobrecargar a un equipo de dos personas y una fuerza de ventas de una sola persona.",
+        "El equipo interno está estructurado para la ejecución constante: producir piezas, publicar contenido, mantener el sitio web actualizado. Eso es trabajo real y valioso. Lo que falta es alguien cuya función sea definir la estrategia: qué mercado abrir primero, qué canales financiar, cómo secuenciar tres lanzamientos sin sobrecargar a un equipo interno y una fuerza de ventas reducidos.",
       calloutTitle: "Esto no es un problema de calidad — es un problema de capacidad.",
       calloutBody:
         "La estrategia, la secuenciación y la asignación de presupuesto en tres nuevas regiones están naturalmente por encima de la ejecución diaria — y en este momento, nadie es responsable de esa capa a tiempo completo.",
+    },
+    capabilities: {
+      label: "Lo Que Es Posible",
+      title: "Más allá de la propuesta: el conjunto completo de herramientas disponibles",
+      intro:
+        "Antes de enfocarnos en una modalidad específica, vale la pena ver el rango completo de lo que una operación de marketing moderna puede activar — mucho más allá de la publicidad tradicional.",
+      items: [
+        {
+          icon: "target",
+          title: "Prospección Fría y Generación de Leads",
+          detail: "Contacto saliente personalizado para abrir puertas directamente con nuevas cuentas.",
+        },
+        {
+          icon: "phone",
+          title: "Remarketing y Puntos de Contacto",
+          detail: "Mantenerse presente frente a prospectos en los canales que ya usan.",
+        },
+        {
+          icon: "barChart",
+          title: "Analítica y Tableros",
+          detail: "Visibilidad en tiempo real de lo que funciona, por canal y por región.",
+        },
+        {
+          icon: "zap",
+          title: "Automatización de Procesos",
+          detail: "Eliminar los traspasos manuales en el seguimiento de leads y reportes.",
+        },
+        {
+          icon: "database",
+          title: "Implementación de CRM",
+          detail: "Una sola fuente de verdad para leads, cuentas y pipeline.",
+        },
+        {
+          icon: "bot",
+          title: "Proyectos de IA y Chatbots de Servicio",
+          detail: "Desde automatización de servicio al cliente hasta investigación y contenido asistidos por IA.",
+        },
+        {
+          icon: "pin",
+          title: "SEO Local",
+          detail: "Mayor visibilidad en búsquedas regionales conforme se abren nuevos mercados.",
+        },
+        {
+          icon: "rocket",
+          title: "Hablio",
+          detail: "Agendamiento instantáneo automatizado que convierte leads entrantes en citas confirmadas en minutos.",
+        },
+      ],
+      footnote:
+        "No todas las capacidades aplican desde el primer día — el objetivo es elegir deliberadamente de un menú completo, no por defecto de uno limitado.",
     },
     proposal: {
       label: "La Propuesta",
       title: "Un Director de Marketing Fraccional",
       intro:
-        "Liderazgo senior de marketing, entregado a través de campañas definidas de entrada a mercado y una cadencia estratégica trimestral — liderado por Bryan López y respaldado por Solo Agency, para que la ejecución no dependa de la disponibilidad de una sola persona.",
+        "Dentro de ese menú completo, la propuesta a continuación es el punto de partida enfocado: liderazgo senior de marketing entregado a través de campañas definidas de entrada a mercado y una cadencia estratégica trimestral — liderado por Pamela Felicié (Partner, Solo Agency), con Bryan López brindando apoyo estratégico senior, para que la ejecución no dependa de la disponibilidad de una sola persona.",
       rows: [
         {
           icon: "users",
           title: "Un Equipo, No un Operador Solitario",
           detail:
-            "Bryan dirige la estrategia y la relación; Pamela Felicié (Partner, Solo Agency) y colaboradores ejecutan.",
+            "Pamela Felicié (Partner, Solo Agency) dirige la estrategia, la ejecución y la relación día a día; Bryan López brinda apoyo estratégico senior y colaboradores completan la entrega.",
         },
         {
           icon: "map",
@@ -446,16 +539,16 @@ export const sections = {
       title: "Partiendo de la confianza, no de una presentación en frío",
       items: [
         {
-          icon: "building",
-          title: "Bryan López — El Experto en Pelegrina",
-          detail:
-            "Ex miembro del propio equipo de marketing de Pelegrina, con conocimiento profundo del catálogo y confianza ya establecida con el Presidente y la Gerente de Operaciones.",
-        },
-        {
           icon: "users",
           title: "Pamela Felicié — Partner, Solo Agency",
           detail:
-            "Estratega de marketing digital y fundadora de Solo Agency, enfocada en publicidad integrada y estrategia creativa para marcas en crecimiento.",
+            "Dirige la estrategia y la ejecución día a día de este proyecto. Tiene una Maestría en Publicidad Integrada (Creatividad y Estrategia) y actualmente lleva el marketing multi-país en LATAM — en construcción, agricultura y logística — para Teselta, directamente relevante para la expansión regional de Pelegrina.",
+        },
+        {
+          icon: "building",
+          title: "Bryan López — Apoyo Estratégico Senior",
+          detail:
+            "Ex Coordinador de Marketing e IT en Pelegrina Medical, con confianza ya establecida con el Presidente y la Gerente de Operaciones. Hoy es Director de Outbound y Experiencia del Cliente en WindMar Home, donde lideró la implementación de una plataforma de citas impulsada por IA — asesorando en estrategia sin asumir la ejecución diaria en este proyecto.",
         },
         {
           icon: "comments",

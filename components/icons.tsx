@@ -16,6 +16,13 @@ import {
   Map,
   Building2,
   Mail,
+  Target,
+  Zap,
+  Database,
+  Bot,
+  MapPin,
+  BarChart3,
+  PhoneCall,
   type LucideIcon,
 } from "lucide-react";
 
@@ -37,6 +44,13 @@ export const iconMap: Record<string, LucideIcon> = {
   map: Map,
   building: Building2,
   envelope: Mail,
+  target: Target,
+  zap: Zap,
+  database: Database,
+  bot: Bot,
+  pin: MapPin,
+  barChart: BarChart3,
+  phone: PhoneCall,
 };
 
 export function Icon({
