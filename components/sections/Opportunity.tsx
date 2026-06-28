@@ -44,7 +44,7 @@ export function Opportunity() {
               <dl className="grid grid-cols-2 gap-8">
                 {s.stats.map((stat) => (
                   <div key={stat.label}>
-                    <dt className="font-display text-4xl font-bold text-brand-black sm:text-5xl">
+                    <dt className="break-words font-display text-3xl font-bold leading-tight text-brand-black sm:text-5xl">
                       {stat.number}
                     </dt>
                     <dd className="mt-1 text-sm text-brand-muted">{stat.label}</dd>

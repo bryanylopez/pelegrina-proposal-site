@@ -384,7 +384,7 @@ export const sections = {
         { number: "45", label: "años en operación" },
         { number: "30+", label: "marcas distribuidas" },
         { number: "3", label: "nuevas regiones objetivo" },
-        { number: "Limitada", label: "capacidad de ventas internacionales hoy" },
+        { number: "Baja", label: "capacidad de ventas internacionales hoy" },
       ],
     },
     audit: {
