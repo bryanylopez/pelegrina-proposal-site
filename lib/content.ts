@@ -1,6 +1,5 @@
 export type Locale = "en" | "es";
 
-// TODO: pendiente reemplazar el logo de Brand Composers (revisar referencias de marca/email asociadas).
 export const contact = {
   name: "Pamela Felicié",
   phone: "(939) 232-6170",
@@ -52,7 +51,7 @@ export const ui = {
     backToTop: "Back to top",
   },
   es: {
-    eyebrow: "Liderazgo de Marketing Fraccional",
+    eyebrow: "Marketing Fraccional",
     badge: "Propuesta",
     menuOpen: "Menú",
     menuClose: "Cerrar",
@@ -238,7 +237,7 @@ export const sections = {
           tag: "AI, Dashboards & Automation",
           title: "AI-Powered Business Dashboard",
           detail:
-            "An example of an AI dashboard for business visibility and automation. Link pending confirmation.",
+            "An example of an AI dashboard for business visibility and automation. Best reviewed live in person.",
           url: null,
           linkLabel: null,
         },
@@ -468,7 +467,7 @@ export const sections = {
   },
   es: {
     hero: {
-      kicker: "Liderazgo de Marketing Fraccional",
+      kicker: "Marketing Fraccional",
       title: "Una Propuesta para Pelegrina Medical",
       subtitle: "Construyendo el motor de marketing para la nueva expansión.",
       preparedBy: "Preparado por Pamela Felicié",
@@ -609,7 +608,7 @@ export const sections = {
         {
           icon: "pin",
           tag: "SEO Local",
-          title: "Página Local para el Sector Salud",
+          title: "Páginas Locales",
           detail:
             "Página de aterrizaje geolocalizada (Houston, TX) construida para capturar búsquedas locales de salud y convertir con seguimiento de campaña.",
           url: "https://habl.io/en/healthcare/tx/houston?utm_source=test&utm_medium=direct&utm_campaign=forms-test",
@@ -618,7 +617,7 @@ export const sections = {
         {
           icon: "database",
           tag: "Automatización y Herramientas de Ventas",
-          title: "Portal de Cotización Personalizado para Consultores",
+          title: "Herramientas Personalizadas para Ventas",
           detail:
             "Página generada automáticamente por consultor, construida para acelerar las cotizaciones de la fuerza de ventas.",
           url: "https://windmar.com/pr/consultor/4258103001706308419",
@@ -637,7 +636,7 @@ export const sections = {
           icon: "bot",
           tag: "IA, Dashboards y Automatización",
           title: "Dashboard de Negocio Impulsado por IA",
-          detail: "Ejemplo de dashboard con IA para visibilidad de negocio y automatización. Enlace pendiente de confirmar.",
+          detail: "Ejemplo de dashboard con IA para visibilidad de negocio y automatización. Mejor revisarlo en vivo, en persona.",
           url: null,
           linkLabel: null,
         },

@@ -141,7 +141,14 @@ export function QuickStart() {
           </div>
         </Reveal>
 
-        <p className="mt-6 max-w-3xl text-sm italic text-brand-muted">{s.footnote}</p>
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <img
+            src="/brand-composers-logo.png"
+            alt="Brand Composers"
+            className="h-6 w-auto opacity-80"
+          />
+          <p className="max-w-3xl text-sm italic text-brand-muted">{s.footnote}</p>
+        </div>
       </div>
     </section>
   );

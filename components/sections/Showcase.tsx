@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight, Clock } from "lucide-react";
+import { ArrowUpRight, Eye } from "lucide-react";
 import { useLanguage } from "@/components/LanguageProvider";
 import { Reveal } from "@/components/Reveal";
 import { SectionLabel } from "@/components/SectionLabel";
@@ -55,8 +55,8 @@ export function Showcase() {
                   </a>
                 ) : (
                   <span className="mt-5 inline-flex items-center gap-1.5 self-start rounded-pill border border-black/10 px-4 py-2 text-xs font-semibold text-brand-muted">
-                    <Clock className="h-3.5 w-3.5" />
-                    {locale === "es" ? "Pendiente" : "Pending"}
+                    <Eye className="h-3.5 w-3.5" />
+                    {locale === "es" ? "Se revisa en persona" : "Reviewed in person"}
                   </span>
                 )}
               </div>
